@@ -5,7 +5,7 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 
 As for what I changed/added:
 
-1. A 'preamble' message at the very top for use with Deepseek v4.  It just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.
+1. A 'preamble' message at the very top for use with Deepseek v4.  Preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.
 
 2. An 'antislop entry,' weighing in at ~250 tokens.
 
