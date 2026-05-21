@@ -15,7 +15,7 @@ As for what I changed/added:
 
 5. And an alternate "NFSW" toggle.
 
-6. I added a POV/Tense entry in the ROLE toggle, because that's where the original author had his 'style guide,' and I do think tense/POV deserves to be at the top of the prompt if you care about that sort of thing.  My preference is for second-person narration in present tense, so that's what you'll find, but easy enough to change.
+6. I added a POV/Tense entry in the ROLE toggle, because that's where the original author had his 'style guide,' and because I  think tense/POV deserves to be at the top of the prompt if you care about that sort of thing.  My preference is for second-person narration in present tense, so that's what you'll find, but easy enough to change.
 
 7. Oh, and I commented out the bit about not impersonating the user's character.  I left in the prohibition against spoofing {{user}}'s dialogue, because that bothers me much more.  Matter of preference, but I like to leave the model some latitude to paraphrase/interpret {{user}}'s actions/responses.  
 
