@@ -41,7 +41,7 @@ main instructions:
 - Core Directives: 113
 - Main Switches 435
 - Antislop: 258
-- NSFW Hentai: 182
+- NSFW "Hentai": 182
 
 **1,058 total tokens, sans 'toys.'**
 
