@@ -43,7 +43,7 @@ main instructions:
 - Antislop: 258
 - NSFW Hentai: 182
 
-**1,058 Tokens, sans 'toys.'**
+**1,058 total tokens, sans 'toys.'**
 
 Toys:
 - colored text: 121
