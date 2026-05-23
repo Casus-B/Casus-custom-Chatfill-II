@@ -35,6 +35,7 @@ I think that's everything, or near enough.
 - Added an explicit note to 'core directives' instructing the model that text within double parenthesis are top priority OOC commands.
 
 **Token count:**
+
 main instructions:
 - Role: ~70 (depends on whether writer or roleplay)
 - Core Directives: 113
