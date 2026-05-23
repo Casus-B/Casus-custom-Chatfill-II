@@ -26,7 +26,7 @@ I think that's everything, or near enough.
 
 ## 2.0
 
-- Altered the prompt's structure.  '<roleplay_system>' is now simply '<system>'.  The 'core directives have been disconnected from the 'role' entry, so that each can be edited without having to worry about maintaining two copies of the former.
+- Altered the prompt's structure.  'roleplay_system' is now simply 'system'.  The 'core directives' have been disconnected from the 'role' entry, so that each can be edited without having to worry about maintaining two copies of the former.
 
 - "roleplay_rules_reminder" is now simply "final_instructions."  Tiny change, probably doesn't matter, but it does match the template in google's documentation on prompt strategies: https://ai.google.dev/gemini-api/docs/prompting-strategies#example_template_combining_best_practices
 
