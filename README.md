@@ -35,6 +35,7 @@ I think that's everything, or near enough.
 - Added an explicit note to 'core directives' instructing the model that text within double parenthesis are top priority OOC commands.
 
 **Token count:**
+main instructions:
 - Role: ~70 (depends on whether writer or roleplay)
 - Core Directives: 113
 - Main Switches 435
@@ -43,6 +44,7 @@ I think that's everything, or near enough.
 
 **1,058 Tokens, sans 'toys.'**
 
+Toys:
 - colored text: 121
 - logbook (main tracker): 537
 - date/time tracker: 114
