@@ -24,7 +24,7 @@ As for what I changed/added:
 
 I think that's everything, or near enough.
 
-## 2.0
+## 2.0 UPDATE, May 23, 2026
 
 - Altered the prompt's structure.  'roleplay_system' is now simply 'system'.  The 'core directives' have been disconnected from the 'role' entry, so that each can be edited without having to worry about maintaining two copies of the former.
 
