@@ -673,11 +673,11 @@
                 },
                 {
                     "identifier": "6e07296e-2a84-4f07-a4c2-1a4f7b742c16",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "91d8e007-30f6-4754-9e24-daa564da7434",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "7d1c3c9c-58d9-4afd-b824-86a196bdbaf8",
@@ -705,7 +705,7 @@
                 },
                 {
                     "identifier": "31c2e20c-65c4-47fb-8dee-3d5c57af7438",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "nsfw",
