@@ -56,6 +56,6 @@ Toys:
 
 ## 3.0 UPDATE
 
-- Minor formatting adjustments.  The switches are now enclosed in xml tags labeled 'switches' and '/switches.'  Very brief testing suggests that this MIGHT slightly improve prompt adherence.
+- Minor formatting adjustments.  The switches are now collectively grouped within an xml category labeled 'switches'.'  Very brief testing suggests that this MIGHT slightly improve prompt adherence.
 
 - Also at some point along the way I changed the "Character Names Behavior" setting from "None" to "Message Content."  This simply pre-pends every message in the chat log with {{char}} or {{user}}'s name. I've never figured out whether it's good or bad to have this enabled.  I'm sure some people have strong opinions.  But if nothing else, having the names there makes the output more readable for me when I'm sifting through it.
