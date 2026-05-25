@@ -60,4 +60,4 @@ Toys:
 
 - Also at some point along the way I changed the "Character Names Behavior" setting from "None" to "Message Content."  This simply pre-pends every message in the chat log with {{char}} or {{user}}'s name. I've never figured out whether it's good or bad to have this enabled.  I'm sure some people have strong opinions.  But if nothing else, having the names there makes the output more readable for me when I'm sifting through it.
 
-- The "Agency" switch no longer prohibits "positivity/negativity bias."  Instead, it simply prohibits positivity bias.  YMMV, but I've never really noticed that negativity bias is a problem.  I consider negativity bias to be a welcome surprise, lol.
+- The "Agency" switch no longer prohibits "positivity/negativity bias."  Instead, it simply prohibits positivity bias.  YMMV, but I've never seen negativity bias as a problem.  It's rarely noticeable at all, in my experience.
