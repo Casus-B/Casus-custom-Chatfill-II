@@ -13,7 +13,7 @@ As for what I changed/added:
 
 4. Added a 'writer role' toggle, as an alternative to the default 'roleplayer' role.  This isn't a big deal.  Some people swear that LLMs write better in the 'writer' role.  Some even insist that if you have the word 'roleplay' anywhere in your prompt, the prose will degrade.  I can't say I've ever noticed either phenomenon.  But it doesn't hurt to have the option. 
 
-5. And an alternate "NSFW" toggle ("Hentai").  The existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  So this one is slightly different, in terms of style and tone, but also (hopefully) it won't turn every single scene towards sex.
+5. And an alternate "NSFW" toggle ("Hentai").  The existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  So this one is slightly different, in terms of style and tone, but also (hopefully) it won't turn every single scene towards sex.  You can, of course, disable BOTH NSFW toggles.
 
 6. I added a POV/Tense entry in the ROLE toggle, because that's where the original author had his 'style guide,' and because I  think tense/POV deserves to be at the top of the prompt.  My preference is for second-person narration in present tense, so that's what you'll find, but easy enough to change.
 
