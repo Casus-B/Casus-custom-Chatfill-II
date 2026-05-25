@@ -5,17 +5,17 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 
 As for what I changed/added:
 
-1. A 'preamble' message at the very top for use with Deepseek v4.  Preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.
+1. A 'preamble' toggle at the very top for use with Deepseek v4.  The preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.  You can disable this, or not, when using other models.  Leaving it on doesn't seem to hurt anything.
 
 2. An 'antislop entry,' weighing in at ~250 tokens.
 
 3. An 'agency' entry that may or may not matter at all.  It makes me feel better, though, just a few lines reminding the LLM that {{user}} is not special, and instructing it to maintain absolute moral neutrality.
 
-4. Added an extra 'role' toggle, as an alternative to the default 'roleplayer' role.  This isn't a big deal.  Some people swear that LLMs write better in the 'writer' role.  Some even insist that if you have the word 'roleplay' anywhere in your prompt, the prose will degrade.  I can't say I've ever noticed either phenomenon.  But it doesn't hurt to have the option.  In this case, the change to the prompt is as bare bones as possible.
+4. Added a 'writer role' toggle, as an alternative to the default 'roleplayer' role.  This isn't a big deal.  Some people swear that LLMs write better in the 'writer' role.  Some even insist that if you have the word 'roleplay' anywhere in your prompt, the prose will degrade.  I can't say I've ever noticed either phenomenon.  But it doesn't hurt to have the option. 
 
-5. And an alternate "NFSW" toggle.
+5. And an alternate "NSFW" toggle ("Hentai").  The existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  So this one is slightly different, in terms of style and tone, but also (hopefully) it won't turn every single scene towards sex.
 
-6. I added a POV/Tense entry in the ROLE toggle, because that's where the original author had his 'style guide,' and because I  think tense/POV deserves to be at the top of the prompt if you care about that sort of thing.  My preference is for second-person narration in present tense, so that's what you'll find, but easy enough to change.
+6. I added a POV/Tense entry in the ROLE toggle, because that's where the original author had his 'style guide,' and because I  think tense/POV deserves to be at the top of the prompt.  My preference is for second-person narration in present tense, so that's what you'll find, but easy enough to change.
 
 7. Some 'toys,' in the form of individualized colored dialogue for NPCs (works even if you're just using a Narrator card), a time/date/weather tracker, and a big tracker that covers present characters, clothing/position, a brief rundown of prominent characters' motivations in the current scene, recent and ongoing plot developments, and sort of a decision tree for the AI to follow when crafting its approach to the current reply.  I honestly can't do without the latter.  It makes things so much more consistent in scenes with several different moving parts.
   (All of the 'toys' can be toggled on or off.)
@@ -37,13 +37,13 @@ I think that's everything, or near enough.
 **Token count:**
 
 main instructions:
-- Role: ~70 (depends on whether writer or roleplay)
+- Role: ~65 (depends on whether writer or roleplay)
 - Core Directives: 113
 - Main Switches 435
 - Antislop: 258
 - NSFW "Hentai": 182
 
-**1,058 total tokens, sans 'toys.'**
+**1,053 total tokens, sans 'toys.'**
 
 Toys:
 - colored text: 121
@@ -52,10 +52,12 @@ Toys:
 
 772 tokens from 'toys.
 
-**1,830 tokens with everything enabled**
+**1,825 tokens with everything enabled**
 
 ## 3.0 UPDATE
 
 - Minor formatting adjustments.  The switches are now collectively grouped within an xml category labeled 'switches'.'  Very brief testing suggests that this MIGHT slightly improve prompt adherence.
 
 - Also at some point along the way I changed the "Character Names Behavior" setting from "None" to "Message Content."  This simply pre-pends every message in the chat log with {{char}} or {{user}}'s name. I've never figured out whether it's good or bad to have this enabled.  I'm sure some people have strong opinions.  But if nothing else, having the names there makes the output more readable for me when I'm sifting through it.
+
+- The "Agency" switch no longer prohibits "positivity/negativity bias."  Instead, it simply prohibits positivity bias.  YMMV, but I've never really noticed that negativity bias is a problem.  I consider negativity bias to be a welcome surprise, lol.
