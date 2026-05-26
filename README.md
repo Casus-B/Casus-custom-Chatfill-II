@@ -28,9 +28,9 @@ He goes on to mention some of the 'switches' included in the model, among them t
 > - **Brevity:** For preventing overly long responses while still allowing them when the scene genuinely calls for it. This didn't use to work, but now, framed as a switch, it does. I frequently see the model debating brevity in its reasoning. Works especially well with DeepSeek v4 Pro.
 > - **Momentum:** ALWAYS ON! It may seem like it's just repeating the Emotional Economy switch at first glance, but it's not. It complements it and carries it forward. You need both enabled for them to work properly.
 
-From my perspective, the real magic of Chatfill II is the _pacing_.  There's always a trade off, between heavy and lightweight presets.  The heavy presets cost more tokens, of course, and they risk drowning the LLM in instructions it can't possibly hope to follow all at once.  Lightweight presets have the opposite flaw: fewer tokens means you really have to pick and choose which instructions to include.
+From my perspective, the real magic of Chatfill II is the _pacing_.  There's always a trade off, between heavy and lightweight presets.  Heavy presets cost more tokens, of course, and they risk drowning the LLM in instructions it can't possibly hope to follow all at once.  Lightweight presets have the opposite flaw: fewer tokens means you really have to pick and choose which instructions to include.
 
-Chatfill II's pacing kills (at least) two birds with one stone.  You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it actually tends to sidestep the problem of slop even without explicit antislop instructions: the LLM simply doesn't have much space in each reply to wallow in slop phrases/constructions.
+Chatfill II's pacing kills (at least) two birds with one stone.  You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions: the slop is there, but the LLM doesn't have much space in each reply to wallow in slop phrases/constructions.
 
 I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.  Pretty much every time a preset was released on the Sillytavern subreddit, I would immediately grab it, test it, pour over it for ideas to incorporate into my own prompts.  I have seen many attempt a 'variable' post length instruction, whereby the LLM shortens or lengthens its response based on the situation.  I have never seen it work.  In my own custom prompt, I finally settled for a collection of different length instructions, to be manually toggled in different situations.
 
@@ -38,11 +38,13 @@ _Chatfill II's variable post length actually works._
 
 Together with the 'momentum' entry, the emotional economy switch addresses what is probably my singular pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny tiny number of tokens.  I can't praise this preset enough.
 
+My custom version is designed to flesh out the preset, enhance it without adding a ton of extra tokens.  My version is certainly an improvement for my purposes, and of course I recommend my version.  But I also heartily recommend the original.  At the very least, the original Chatfill II provides a peerless starting point for your own custom prompt.
+
 -----
 
 ## Tested Models
 
-I have tested the preset, and found it to work very well, with the following models: 
+I have tested (my version of) the preset, and found it to work very well, with the following models: 
 - GLM 4.6/4.7/5.0/5.1
 - Kimi 2.5
 - Deepseek 3.1/Terminus/3.2/Chimera/4.0
