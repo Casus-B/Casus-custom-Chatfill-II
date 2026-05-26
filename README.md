@@ -36,7 +36,7 @@ I've spent an embarassing amount of time testing presets, dissecting them, re-ar
 
 _Chatfill II's variable post length actually works._
 
-Together with the 'momentum' entry, the emotional economy switch addresses what is probably my singular pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny tiny number of tokens.  I can't praise this preset enough.
+Together with the 'momentum' entry, Chatfill II's emotional economy switch addresses what is probably my singular pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny tiny number of tokens.  I can't praise this preset enough.
 
 My custom version is designed to flesh out the preset, enhance it without adding a ton of extra tokens.  My version is certainly an improvement for my purposes, and of course I recommend my version.  But I also heartily recommend the original.  At the very least, the original Chatfill II provides a peerless starting point for your own custom prompt.
 
