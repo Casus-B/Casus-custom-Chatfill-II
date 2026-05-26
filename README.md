@@ -123,3 +123,10 @@ I think that's everything, or near enough.
 - Also at some point along the way I changed the "Character Names Behavior" setting from "None" to "Message Content."  This simply pre-pends every message in the chat log with {{char}} or {{user}}'s name. I've never figured out whether it's good or bad to have this enabled.  I'm sure some people have strong opinions.  But if nothing else, having the names there makes the output more readable for me when I'm sifting through it.
 
 - The "Agency" switch no longer prohibits "positivity/negativity bias."  Instead, it simply prohibits positivity bias.  YMMV, but I've never seen negativity bias as a problem.  It's rarely noticeable at all, in my experience.
+
+-------
+
+## 4.0 Clean Up
+
+- Minor spelling corrections.
+- Also added an extra entry to the 'agency' switch, further expounding on NPC autonomy.  Not sure if it matters one way or another.  It adds about 35 tokens.  I may just leave it there and comment it out, but for now it's active.
