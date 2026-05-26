@@ -22,13 +22,7 @@ To start, I will quote the author's aforementioned [Reddit post](https://www.red
 >
 > But it turned out the problem was the wording and the form of the reminder. Adding verbatim repeats of the rules, or phrasing them as generic reminders, those didn't work. But the style I settled on here (you'll see it when you import the preset) does work. Works very well with reasoning models. This becomes clear the moment you check the models' reasoning output.
 
-He goes on to mention some of the 'switches' included in the preset, among them the following:
-
-> - **Emotional Economy:** ALWAYS ON! Models sometimes get stuck on one beat, delivering the same reaction over and over with different variations. This prevents it.
-> - **Brevity:** For preventing overly long responses while still allowing them when the scene genuinely calls for it. This didn't use to work, but now, framed as a switch, it does. I frequently see the model debating brevity in its reasoning. Works especially well with DeepSeek v4 Pro.
-> - **Momentum:** ALWAYS ON! It may seem like it's just repeating the Emotional Economy switch at first glance, but it's not. It complements it and carries it forward. You need both enabled for them to work properly.
-
-Those three small entries accomplish so much.  Let me count the ways:
+He goes on to mention some of the 'switches' included in the preset, among them "Brevity," "Emotional Economy," and "Momentum."  Those three small entries accomplish so much.  Let me count the ways:
 
 You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions.  Slop appears, but it's less annoying because the LLM doesn't have much space to wallow in it.
 
