@@ -11,7 +11,7 @@ I have tested the preset, and found it to work very well, with the following mod
 - Qwen 3.5 (397b)
 - Minimax 2.7
 
-Thinking models are recommended, but I've found that even without thinking the output is quite good.
+Thinking models are recommended, but I've found that even without thinking the output is quite good.  (All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
   
   (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics with my old preset.  Note that both Kimi 2.5 and 2.6 will tend to think even if you're using a variant of the model with reasoning disabled!) 
 
