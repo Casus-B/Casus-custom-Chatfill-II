@@ -1,7 +1,11 @@
 # Casus-custom-Chatfill-II
-A modified Sillytavern preset.  All credit to u/eteitaxiv for the spectacular original, which you can find at the link below.  I'm sharing mine here mostly on the off chance that he might want to incorporate some of what I've done in his next version.
+A modified, universal, Sillytavern preset.  All credit to u/eteitaxiv for the spectacular original, which you can find at the link below.  I'm sharing mine here mostly on the off chance that he might want to incorporate some of what I've done in his next version.
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
+
+I have tested the preset, and found it to work very well, with the following models: GLM 4.6/4.7/5.0/5.1, Kimi 2.5, Deepseek 3.1/Terminus/3.2/Chimera/4.0, Gemma 4 26b/31b, Qwen 3.5 (397b), Minimax 2.7.  Thinking models are recommended, but I've found that even without thinking the output is quite good.
+  
+  (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may able to address this by adding a toggle or two that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics with my old preset.) 
 
 As for what I changed/added:
 
@@ -13,7 +17,7 @@ As for what I changed/added:
 
 4. Added a 'writer role' toggle, as an alternative to the default 'roleplayer' role.  This isn't a big deal.  Some people swear that LLMs write better in the 'writer' role.  Some even insist that if you have the word 'roleplay' anywhere in your prompt, the prose will degrade.  I can't say I've ever noticed either phenomenon.  But it doesn't hurt to have the option. 
 
-5. And an alternate "NSFW" toggle ("Hentai").  The existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  So this one is slightly different, in terms of style and tone, but also (hopefully) it won't turn every single scene towards sex.  You can, of course, disable BOTH NSFW toggles.
+5. Added an alternate "NSFW" toggle ("Hentai").  The existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  So this one is slightly different, in terms of style and tone, but also (hopefully) it won't turn every single scene towards sex.  You can, of course, disable BOTH NSFW toggles.
 
 6. I added a POV/Tense entry in the ROLE toggle, because that's where the original author had his 'style guide,' and because I  think tense/POV deserves to be at the top of the prompt.  My preference is for second-person narration in present tense, so that's what you'll find, but easy enough to change.
 
