@@ -3,7 +3,14 @@ A modified, universal, Sillytavern preset.  All credit to u/eteitaxiv for the sp
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
 
-I have tested the preset, and found it to work very well, with the following models: GLM 4.6/4.7/5.0/5.1, Kimi 2.5, Deepseek 3.1/Terminus/3.2/Chimera/4.0, Gemma 4 26b/31b, Qwen 3.5 (397b), Minimax 2.7.  Thinking models are recommended, but I've found that even without thinking the output is quite good.
+I have tested the preset, and found it to work very well, with the following models: 
+- GLM 4.6/4.7/5.0/5.1
+- Kimi 2.5
+- Deepseek 3.1/Terminus/3.2/Chimera/4.0
+- Gemma 4 26b/31b, Qwen 3.5 (397b)
+- Minimax 2.7.
+
+Thinking models are recommended, but I've found that even without thinking the output is quite good.
   
   (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle or two that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics with my old preset.) 
 
