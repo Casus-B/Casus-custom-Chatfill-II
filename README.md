@@ -89,14 +89,14 @@ I think that's everything, or near enough.
 - Antislop: 258
 - NSFW "Hentai": 182
 
-**1,053 total tokens, sans 'toys.'**
+- **1,053 total tokens, sans 'toys.'**
 
 **Toys:**
 - colored text: 121
 - logbook (main tracker): 537
 - date/time tracker: 114
 
-772 tokens from 'toys.
+- 772 tokens from 'toys.
 
 **1,825 tokens with everything enabled**
 
