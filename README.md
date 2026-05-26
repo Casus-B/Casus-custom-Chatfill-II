@@ -66,7 +66,7 @@ As for what I changed/added:
 
 2. An 'antislop entry,' weighing in at ~250 tokens.
 
-3. An 'agency' entry that may or may not matter at all.  It makes me feel better, though, just a few lines reminding the LLM that {{user}} is not special, and instructing it to maintain absolute moral neutrality.
+3. An 'agency' entry, just a few lines reminding the LLM that {{user}} is not special, that NPCs pursue their own goals regardless of {{user}}'s wishes, and instructing the LLM to maintain absolute moral neutrality. (Limit positivity bias.)
 
 4. Added a 'writer role' toggle, as an alternative to the default 'roleplayer' role.  This isn't a big deal.  Some people swear that LLMs write better in the 'writer' role.  Some even insist that if you have the word 'roleplay' anywhere in your prompt, the prose will degrade.  I can't say I've ever noticed either phenomenon.  But it doesn't hurt to have the option. 
 
