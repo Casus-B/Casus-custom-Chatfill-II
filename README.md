@@ -5,7 +5,7 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 
 -----
 
-## Table of Contents
+# Table of Contents
 - [What Makes Chatfill II Special](#what-makes-chatfill-ii-special)
 - [Tested Models](#tested-models)
 - [What My Version Changes](#what-my-version-changes)
@@ -14,7 +14,7 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 
 -----
 
-## What makes Chatfill II Special
+# What makes Chatfill II Special
 
 To start, I will quote the author's aforementioned [Reddit post](https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/):
 
@@ -38,7 +38,7 @@ My custom version is designed to flesh out the preset, enhance it without adding
 
 -----
 
-## Tested Models
+# Tested Models
 
 I have tested (my version of) the preset, and found it to work very well, with the following models: 
 - GLM 4.6/4.7/5.0/5.1
@@ -54,7 +54,7 @@ Thinking models are recommended, but I've found that even without thinking the o
 
 -----
 
-## What My Version Changes
+# What My Version Changes
 
 As for what I changed/added:
 
@@ -79,7 +79,7 @@ I think that's everything, or near enough.
 
 ------
 
-## Token count
+## Token Count
 (as of version 2.0)
 
 **main instructions:**
@@ -102,9 +102,9 @@ I think that's everything, or near enough.
 
 -----
 
-## Further Revisions
+# Further Revisions
 
-### 2.0 UPDATE, May 23, 2026
+## 2.0 UPDATE, May 23, 2026
 
 - Altered the prompt's structure.  'roleplay_system' is now simply 'system'.  The 'core directives' have been disconnected from the 'role' entry, so that each can be edited without having to worry about maintaining two copies of the former.
 
@@ -116,7 +116,7 @@ I think that's everything, or near enough.
 
 -----
 
-### 3.0 UPDATE
+## 3.0 UPDATE
 
 - Minor formatting adjustments.  The switches are now collectively grouped within an xml category labeled 'switches'.'  Very brief testing suggests that this MIGHT slightly improve prompt adherence.
 
