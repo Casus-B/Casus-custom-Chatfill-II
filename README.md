@@ -54,7 +54,7 @@ I have tested (my version of) the preset, and found it to work very well, with t
 
 Thinking models are recommended, but I've found that even without thinking the output is quite good.  (All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
   
-  (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics.  Note that both Kimi 2.5 and 2.6 will tend to think even if you're using a variant of the model with reasoning disabled!) 
+  (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics.  Note that both Kimi 2.6 will tend to think even if you're using a variant of the model with reasoning disabled!) 
 
 -----
 
@@ -62,7 +62,7 @@ Thinking models are recommended, but I've found that even without thinking the o
 
 As for what I changed/added:
 
-1. A 'preamble' toggle at the very top for use with Deepseek v4.  The preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.  You can disable this, or not, when using other models.  Leaving it on doesn't seem to hurt anything.
+1. A 'preamble' toggle at the very top for use with Deepseek v4.  The preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting invisible instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.  You can disable this, or not, when using other models.  Leaving it on doesn't seem to hurt anything.
 
 2. An 'antislop entry,' weighing in at ~250 tokens.
 
