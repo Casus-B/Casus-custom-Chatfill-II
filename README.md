@@ -28,9 +28,9 @@ He goes on to mention some of the 'switches' included in the preset, among them 
 > - **Brevity:** For preventing overly long responses while still allowing them when the scene genuinely calls for it. This didn't use to work, but now, framed as a switch, it does. I frequently see the model debating brevity in its reasoning. Works especially well with DeepSeek v4 Pro.
 > - **Momentum:** ALWAYS ON! It may seem like it's just repeating the Emotional Economy switch at first glance, but it's not. It complements it and carries it forward. You need both enabled for them to work properly.
 
-Those three small entries accomplish so much.  There's always a trade off, between heavy and lightweight presets.  Heavy presets cost more tokens, of course, and they risk drowning the LLM in instructions it can't possibly hope to follow all at once.  Lightweight presets have the opposite problem: fewer tokens means you really have to pick and choose which instructions to include.
+Those three small entries accomplish so much.  Let me count the ways:
 
-Chatfill II's pacing kills (at least) two birds with one stone.  You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions.  Slop appears, but it's less annoying because the LLM doesn't have much space in each reply to wallow in slop phrases/constructions.
+You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions.  Slop appears, but it's less annoying because the LLM doesn't have much space in each reply to wallow in slop phrases/constructions.
 
 I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.    I have seen many attempts at a 'variable post length' instruction, whereby the LLM dynamically adjusts the length of replies based on the situation.  I have never seen it work.  I finally settled for a collection of different length instructions, to be manually toggled in different situations.  But now I don't have to do that.
 
