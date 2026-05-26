@@ -12,7 +12,7 @@ I have tested the preset, and found it to work very well, with the following mod
 
 Thinking models are recommended, but I've found that even without thinking the output is quite good.
   
-  (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle or two that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics with my old preset.) 
+  (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics with my old preset.) 
 
 As for what I changed/added:
 
