@@ -1,7 +1,46 @@
 # Casus-custom-Chatfill-II
-A modified, lightweight, Sillytavern preset.  All credit to u/eteitaxiv for the spectacular original, which you can find at the link below.  I'm sharing mine here mostly on the off chance that he might want to incorporate some of what I've done in his next version.
+A modified, lightweight, universal, Sillytavern preset.  All credit to u/eteitaxiv for the spectacular original, which you can find at the link below.  I'm sharing mine here mostly on the off chance that he might want to incorporate some of what I've done in his next version.
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
+
+-----
+
+## Table of Contents
+- [What Makes Chatfill II Special](what-makes-chatfill-ii-special)
+- [Tested Models](tested-models)
+- [What My Version Changes](what-my-version-changes)
+
+-----
+
+## What makes Chatfill II Special
+
+To start, I will quote the author's aforementioned [Reddit post](https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/):
+
+> The game-changer idea here is switches. Instead of piling so much stuff after the last user prompt and degrading quality, an idea struck me like lightning: why not just put a reminder, one simple reminder, to point the model back to the system prompt?
+>
+> It didn't work at first.
+>
+> But it turned out the problem was the wording and the form of the reminder. Adding verbatim repeats of the rules, or phrasing them as generic reminders, those didn't work. But the style I settled on here (you'll see it when you import the preset) does work. Works very well with reasoning models. This becomes clear the moment you check the models' reasoning output.
+
+He goes on to mention some of the 'switches' included in the model, among them the following:
+
+> - **Emotional Economy:** ALWAYS ON! Models sometimes get stuck on one beat, delivering the same reaction over and over with different variations. This prevents it.
+> - **Brevity:** For preventing overly long responses while still allowing them when the scene genuinely calls for it. This didn't use to work, but now, framed as a switch, it does. I frequently see the model debating brevity in its reasoning. Works especially well with DeepSeek v4 Pro.
+> - **Momentum:** ALWAYS ON! It may seem like it's just repeating the Emotional Economy switch at first glance, but it's not. It complements it and carries it forward. You need both enabled for them to work properly.
+
+From my perspective, the real magic of Chatfill II is the _pacing_.  There's always a trade off, between heavy and lightweight presets.  The heavy presets cost more tokens, of course, and they risk drowning the LLM in instructions it can't possibly hope to follow all at once.  Lightweight presets have the opposite flaw: fewer tokens means you really have to pick and choose which instructions to include.
+
+But, you see, the pacing of Chatfill II kills two birds with one stone.  You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it actually tends to sidestep the problem of slop even without explicit antislop instructions: the LLM simply doesn't have much space in each reply to wallow in slop phrases/constructions.
+
+I also must note that I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.  Pretty much every time a preset was released on the Sillytavern subreddit, I would immediately grab it, test it, pour over it for ideas to incorporate into my own prompts.  I have seen many attempt a 'variable' post length instruction, whereby the LLM shortens or lengthens its response based on the situation.  I have never seen it work.  In my own custom prompt, I finally settled for a collection of different length instructions, to be manually toggled for different situations.
+
+_Chatfill II's variable post length actually works._
+
+Together with the 'momentum' entry, the emotional economy switch addresses what is probably my singular pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny tiny number of tokens.  I can't praise this preset enough.
+
+-----
+
+## Tested Models
 
 I have tested the preset, and found it to work very well, with the following models: 
 - GLM 4.6/4.7/5.0/5.1
@@ -14,6 +53,10 @@ I have tested the preset, and found it to work very well, with the following mod
 Thinking models are recommended, but I've found that even without thinking the output is quite good.  (All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
   
   (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics.  Note that both Kimi 2.5 and 2.6 will tend to think even if you're using a variant of the model with reasoning disabled!) 
+
+-----
+
+## What My Version Changes
 
 As for what I changed/added:
 
@@ -36,7 +79,7 @@ As for what I changed/added:
 
 I think that's everything, or near enough.
 
-## 2.0 UPDATE, May 23, 2026
+### 2.0 UPDATE, May 23, 2026
 
 - Altered the prompt's structure.  'roleplay_system' is now simply 'system'.  The 'core directives' have been disconnected from the 'role' entry, so that each can be edited without having to worry about maintaining two copies of the former.
 
@@ -66,7 +109,7 @@ Toys:
 
 **1,825 tokens with everything enabled**
 
-## 3.0 UPDATE
+### 3.0 UPDATE
 
 - Minor formatting adjustments.  The switches are now collectively grouped within an xml category labeled 'switches'.'  Very brief testing suggests that this MIGHT slightly improve prompt adherence.
 
