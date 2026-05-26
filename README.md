@@ -6,9 +6,9 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 -----
 
 ## Table of Contents
-- [What Makes Chatfill II Special](what-makes-chatfill-ii-special)
-- [Tested Models](tested-models)
-- [What My Version Changes](what-my-version-changes)
+- [What Makes Chatfill II Special](#what-makes-chatfill-ii-special)
+- [Tested Models](#tested-models)
+- [What My Version Changes](#what-my-version-changes)
 
 -----
 
