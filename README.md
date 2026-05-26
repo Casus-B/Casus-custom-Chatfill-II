@@ -7,7 +7,8 @@ I have tested the preset, and found it to work very well, with the following mod
 - GLM 4.6/4.7/5.0/5.1
 - Kimi 2.5
 - Deepseek 3.1/Terminus/3.2/Chimera/4.0
-- Gemma 4 26b/31b, Qwen 3.5 (397b)
+- Gemma 4 26b/31b
+- Qwen 3.5 (397b)
 - Minimax 2.7
 
 Thinking models are recommended, but I've found that even without thinking the output is quite good.
