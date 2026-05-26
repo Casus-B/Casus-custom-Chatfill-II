@@ -133,3 +133,13 @@ I think that's everything, or near enough.
 - Added an extra entry to the 'agency' switch, further expounding on NPC autonomy.  Not sure if it matters very much.  It adds about 35 tokens.  I may just leave it there and comment it out, but for now it's active.
 
 - NSFW modes are both disabled by default.
+
+-------
+
+## 5.0
+
+- Per the tip in the following Reddit link, I added a toggle at the very end of the prompt (after "final instructions") to jailbreak Mimo 2.5 (pro):
+
+https://www.reddit.com/r/SillyTavernAI/comments/1to4i96/im_here_to_bring_you_the_weekly_sillytavern_news/
+
+- Seems to work quite well with both versions of Mimo, via NanoGPT.
