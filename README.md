@@ -129,4 +129,7 @@ I think that's everything, or near enough.
 ## 4.0 Clean Up
 
 - Minor spelling corrections.
+
 - Also added an extra entry to the 'agency' switch, further expounding on NPC autonomy.  Not sure if it matters one way or another.  It adds about 35 tokens.  I may just leave it there and comment it out, but for now it's active.
+
+- NSFW modes are both disabled by default.
