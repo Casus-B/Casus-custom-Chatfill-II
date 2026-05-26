@@ -32,7 +32,7 @@ Those three small entries accomplish so much.  Let me count the ways:
 
 You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions.  Slop appears, but it's less annoying because the LLM doesn't have much space in each reply to wallow in slop phrases/constructions.
 
-I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.    I have seen many attempts at a 'variable post length' instruction, whereby the LLM dynamically adjusts the length of replies based on the situation.  I have never seen it work.  I finally settled for a collection of different length instructions, to be manually toggled in different situations.  But now I don't have to do that.
+I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.    I have seen many attempts at a 'variable post length' instruction, whereby the LLM dynamically adjusts the length of replies based on the situation.  I have never seen it work, and so I settled for a collection of different length instructions, to be manually toggled in different situations.  But I no longer have to do that.
 
 _Chatfill II's variable post length actually works._
 
