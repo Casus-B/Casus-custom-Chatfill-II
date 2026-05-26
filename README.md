@@ -22,7 +22,7 @@ To start, I will quote the author's aforementioned [Reddit post](https://www.red
 >
 > But it turned out the problem was the wording and the form of the reminder. Adding verbatim repeats of the rules, or phrasing them as generic reminders, those didn't work. But the style I settled on here (you'll see it when you import the preset) does work. Works very well with reasoning models. This becomes clear the moment you check the models' reasoning output.
 
-He goes on to mention some of the 'switches' included in the model, among them the following:
+He goes on to mention some of the 'switches' included in the preset, among them the following:
 
 > - **Emotional Economy:** ALWAYS ON! Models sometimes get stuck on one beat, delivering the same reaction over and over with different variations. This prevents it.
 > - **Brevity:** For preventing overly long responses while still allowing them when the scene genuinely calls for it. This didn't use to work, but now, framed as a switch, it does. I frequently see the model debating brevity in its reasoning. Works especially well with DeepSeek v4 Pro.
