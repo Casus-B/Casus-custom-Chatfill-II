@@ -9,6 +9,8 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 - [What Makes Chatfill II Special](#what-makes-chatfill-ii-special)
 - [Tested Models](#tested-models)
 - [What My Version Changes](#what-my-version-changes)
+- [Token Count](#token-count)
+- [Further Revisions](further-revisions)
 
 -----
 
@@ -75,6 +77,33 @@ As for what I changed/added:
 
 I think that's everything, or near enough.
 
+------
+
+## Token count
+(as of version 2.0)
+
+**main instructions:**
+- Role: ~65 (depends on whether writer or roleplay)
+- Core Directives: 113
+- Main Switches 435
+- Antislop: 258
+- NSFW "Hentai": 182
+
+**1,053 total tokens, sans 'toys.'**
+
+**Toys:**
+- colored text: 121
+- logbook (main tracker): 537
+- date/time tracker: 114
+
+772 tokens from 'toys.
+
+**1,825 tokens with everything enabled**
+
+-----
+
+## Further Revisions
+
 ### 2.0 UPDATE, May 23, 2026
 
 - Altered the prompt's structure.  'roleplay_system' is now simply 'system'.  The 'core directives' have been disconnected from the 'role' entry, so that each can be edited without having to worry about maintaining two copies of the former.
@@ -85,25 +114,7 @@ I think that's everything, or near enough.
 
 - Added an explicit note to 'core directives,' instructing the model that text within double parenthesis comprises top priority OOC commands.
 
-**Token count:**
-
-main instructions:
-- Role: ~65 (depends on whether writer or roleplay)
-- Core Directives: 113
-- Main Switches 435
-- Antislop: 258
-- NSFW "Hentai": 182
-
-**1,053 total tokens, sans 'toys.'**
-
-Toys:
-- colored text: 121
-- logbook (main tracker): 537
-- date/time tracker: 114
-
-772 tokens from 'toys.
-
-**1,825 tokens with everything enabled**
+-----
 
 ### 3.0 UPDATE
 
