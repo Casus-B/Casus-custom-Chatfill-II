@@ -30,7 +30,7 @@ He goes on to mention some of the 'switches' included in the preset, among them 
 
 Those three small entries accomplish so much.  There's always a trade off, between heavy and lightweight presets.  Heavy presets cost more tokens, of course, and they risk drowning the LLM in instructions it can't possibly hope to follow all at once.  Lightweight presets have the opposite problem: fewer tokens means you really have to pick and choose which instructions to include.
 
-Chatfill II's pacing kills (at least) two birds with one stone.  You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions: the slop is there, but the LLM doesn't have much space in each reply to wallow in slop phrases/constructions.
+Chatfill II's pacing kills (at least) two birds with one stone.  You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions.  Slop appears, but it's less annoying because the LLM doesn't have much space in each reply to wallow in slop phrases/constructions.
 
 I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.    I have seen many attempts at a 'variable post length' instruction, whereby the LLM shortens or lengthens its response based on the situation.  I have never seen it work.  I finally settled for a collection of different length instructions, to be manually toggled in different situations.
 
