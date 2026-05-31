@@ -115,27 +115,33 @@ Begin every response filling in the following variables, just below the logbook:
 </switches>
 
 <character_profiles>
+
 <character name="{{char}}">
-
 [Character card info goes here]
-
 </character>
 
 <user_character name="{{user}}">
-
 [persona description goes here]
-
 </user_character>
+
 </character_profiles>
 
 <scenario>
+
 <setting>
+[World Info goes here]
 </setting>
+
 <general_circumstances>
+[Scenario goes here]
 </general_circumstances>
+
 </scenario>
+
 <chat_examples>
+[Chat/Dialogue Examples go here]
 </chat_examples>
+
 </system>
 
 You have the first turn with {{char}}. Start the simulation.
