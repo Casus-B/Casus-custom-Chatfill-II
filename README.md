@@ -163,7 +163,7 @@ I will quote:
 Tightened up the antislop entry.  
 - Terms like 'purple prose' and 'cliche' are a little too abstract for the AI to interpret in a fruitful way, so they have been excised (or commented out). 
 - Added a prohibition against 'reification,' though I think at this point that sort of construction is already well covered.
-- Separated the 'banned words' list from the 'banned construction' list, in the interest of further reducing potential confusion.
+- Separated the 'banned words' list from the 'banned construction' list, in the interest of further reducing potential confusion for the AI.
 
 All told, the token count remains the same.
 
