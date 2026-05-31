@@ -155,3 +155,16 @@ I will quote:
 - Pared down the new entry to 'agency,' described above under "4.0". 
 
 - removed references to roleplay or 'role-play' throughout the prompt.
+
+------
+
+## 5.2 more minor adjustments
+
+Tightened up the antislop entry.  
+- Terms like 'purple prose' and 'cliche' are a little too abstract for the AI to interpret in a fruitful way, so they have been excised (or commented out). 
+- Added a prohibition against 'reification,' though I think at this point that sort of construction is already well covered.
+- Separated the 'banned words' list from the 'banned construction' list, in the interest of further reducing potential confusion.
+
+All told, the token count remains the same.
+
+I will also add a plain text file showing the preset's output, for those who wish to peruse my entries without having to sift through JSON formatting, or having to import the preset into Sillytavern.
