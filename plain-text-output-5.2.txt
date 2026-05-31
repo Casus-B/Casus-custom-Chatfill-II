@@ -1,5 +1,5 @@
 ---
-All instructions after this line supersede any prior instructions.
+Instructions after this line supersede all prior instructions.
 ---
 <system>
 
@@ -79,7 +79,7 @@ Group minor (unnamed) NPCs by faction/alignment.
 </colored_text_switch>
 
 <logbook_switch state=enabled>
-Keep track of the storyline by adding(changing) ongoing and completed Quest experiences in a logbook, marking details down to reference, now or later.  Keep only 15 of the most recent completed quests.  Include a list of the characters present in the current scene, along with a brief note about each one's clothing/position/posture.  Update the character list whenever a change is explicitly mentioned.  Enclose each character's name in a font tag reflecting the character's dialogue color.    Add a concise breakdown of NPC agendas, scene pacing, and potential forward paths.  Remember that {{user}} is NOT an NPC.
+Keep track of the storyline by adding(changing) ongoing and completed Quest experiences in a logbook, marking details down to reference, now or later.  Keep only 10 of the most recent completed quests.  Include a list of the characters present in the current scene, along with a brief note about each one's clothing/position/posture.  Update the character list whenever a change is explicitly mentioned.  Enclose each character's name in a font tag reflecting the character's dialogue color.    Add a concise breakdown of NPC agendas, scene pacing, and potential forward paths.  Remember that {{user}} is NOT an NPC.
 
 START each reply with the logbook.  Enclose the logbook in a hidden xml block using the following format:
 
