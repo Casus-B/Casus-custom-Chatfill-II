@@ -168,3 +168,42 @@ Tightened up the antislop entry.
 All told, the token count remains the same.
 
 I will also add a plain text file showing the preset's output, for those who wish to peruse my entries without having to sift through JSON formatting, or having to import the preset into Sillytavern.
+
+------
+
+## 6.0 Update
+
+Updated the preset to incorporate some of the main author's adjustments in his new []"Chatfill II Conviction Edition"](https://www.reddit.com/r/SillyTavernAI/comments/1u436a0/chatfill_v2_mimo_edition_experiment_no_1_dealing/?screen_view_count=1).  Some, but not all.
+
+- His revision to the phrasing on what I call "final_instruction" seems to improve the AI's commitment to obeying all enabled switches.  I say that based on simply reading their reasoning output over many generations.  So I have adopted that phrasing.
+
+- The Conviction edition also revises the brevity switch.  I have incorporated that change.
+
+- I also added a small entry at the very top of the prompt, under style_guide, telling the LLM to use "a paragraph structure based on modern novels."  This is an instruction I had in my old prompt, long before this one, and it's basically just to counter certain models' tendency to abuse line breaks (GLM 5.0 being the most egregious offender, but Mimo and GLM 5.1 can be pretty bad on this too).
+
+- One thing I did NOT transfer from the newer version of Chatfill II is the author's 'character_conviction' switch.  There's nothing wrong with this switch; it's a very good attempt at countering LLM sycophancy or positivity bias.  But I already had something similar in my "agency" switch.  
+  - I'm not saying my agency switch is BETTER, just that I think this sort of instruction can be a bit fraught with unintended consequences.  My version of it is fairly short and comparatively mild, and it seems to be working ok, so I see no reason to alter it ATM.
+
+- Apart from that, just a little trimming of the 'toy' switches.
+
+**Here are the updated token counts for the primary instructions:**
+
+**main instructions:**
+- Role (roleplay): 52
+- CORE directives: 148
+- Main Switches: 423
+- Antislop: 238
+- NSFW Hentai: 182
+
+= **1,043 total tokens, sans 'toys.'**
+
+**Toys:**
+- colored text: 98
+- logbook (main tracker): 527
+- date/time tracker: 114
+
+- = 739 tokens from 'toys.
+
+**1,782 tokens with everything enabled** 
+
+... plus 33 for the reminder at the end, if you want to count that, lol.
