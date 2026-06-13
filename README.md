@@ -173,7 +173,7 @@ I will also add a plain text file showing the preset's output, for those who wis
 
 ## 6.0 Update
 
-Updated the preset to incorporate some of the main author's adjustments in his new []"Chatfill II Conviction Edition"](https://www.reddit.com/r/SillyTavernAI/comments/1u436a0/chatfill_v2_mimo_edition_experiment_no_1_dealing/?screen_view_count=1).  Some, but not all.
+Updated the preset to incorporate some of the main author's adjustments in his new ["Chatfill II Conviction Edition"](https://www.reddit.com/r/SillyTavernAI/comments/1u436a0/chatfill_v2_mimo_edition_experiment_no_1_dealing/?screen_view_count=1).  Some, but not all.
 
 - His revision to the phrasing on what I call "final_instruction" seems to improve the AI's commitment to obeying all enabled switches.  I say that based on simply reading their reasoning output over many generations.  So I have adopted that phrasing.
 
