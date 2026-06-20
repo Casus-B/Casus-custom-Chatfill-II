@@ -215,6 +215,6 @@ Updated the preset to incorporate some of the main author's adjustments in his n
 
 - Changed the wording of the paragraph-structure entry under "style guide."  It's stronger now.  Token count is basically the same.
 
-- Added an anti-echoing rule to the antislop entry.  It doesn't completely prevent NPCs from repeating your words, but it does cut down on it.  Token count rises by ~17 as a result.
+- Added an anti-parroting rule to the antislop entry.  It doesn't completely prevent NPCs from repeating your words, but it does cut down on it.  Token count rises by ~17 as a result.
 
 Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care not to swap models mid-stream.  It's been fantastic.  Thanks to u/FR-1-Plan for the recommendation. 
