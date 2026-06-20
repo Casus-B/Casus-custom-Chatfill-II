@@ -47,6 +47,7 @@ I have tested (my version of) the preset, and found it to work very well, with t
 - Gemma 4 26b/31b
 - Qwen 3.5 (397b)
 - Minimax 2.7
+- Mimo 2.5 (Pro)
 
 Thinking models are recommended, but I've found that even without thinking the output is quite good.  (All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
   
@@ -207,3 +208,13 @@ Updated the preset to incorporate some of the main author's adjustments in his n
 **1,782 tokens with everything enabled** 
 
 ... plus 33 for the reminder at the end, if you want to count that, lol.
+
+---------
+
+## 6.1 Update
+
+- Changed the wording of the paragraph-structure entry under "style guide."  It's stronger now.  Token count is basically the same.
+
+- Added an anti-echoing rule to the antislop entry.  It doesn't completely prevent NPCs from repeating your words, but it does cut down on it.  Token count rises by ~17 as a result.
+
+Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care not to swap models mid-stream.  It's been fantastic.  Thanks to u/FR-1-Plan for the recommendation. 
