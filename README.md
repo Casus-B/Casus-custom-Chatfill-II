@@ -49,9 +49,11 @@ I have tested (my version of) the preset, and found it to work very well, with t
 - Minimax 2.7
 - Mimo 2.5 (Pro)
 
-Thinking models are recommended, but I've found that even without thinking the output is quite good.  (All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
-  
-  (Kimi 2.6 is spotty; it's even much more prone to fall into endless thinking loops than its predecessor.  You may be able to address this by adding a toggle that instructs Kimi to skip drafting, to answer after one pass, etc.  Personally I don't think the juice is worth the squeeze, but FWIW I had some luck with such tactics.  Note that Kimi 2.6 will tend to think even if you're using a variant of the model with reasoning disabled!) 
+(All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
+
+**UPDATE, July 2, 2026:** Here I used to say that reasoning models are recommended.  It is certainly true that reasoning models *tend* to follow the directions in your preset better than non-reasoning models, but there's an ongoing scholarly debate about whether reasoning models are  good for roleplay/fiction more generally.  For my own part, I go back and forth on the issue.  Lately I'm of the opinion that non-reasoning is better overall.  It may not follow my instructions quite as faithfully, but it seems a little more 'emotionally intelligent,' for lack of a better term.  And of course non-reasoning models will be faster, all else being equal.  YMMV.
+
+Here's a paper arguing that reasoning doesn't help in role play: https://aclanthology.org/2025.findings-acl.537.pdf
 
 -----
 
@@ -218,3 +220,33 @@ Updated the preset to incorporate some of the main author's adjustments in his n
 - Added an anti-parroting rule to the antislop entry.  It doesn't completely prevent NPCs from repeating your words, but it does cut down on it.  Token count rises by ~17 as a result.
 
 Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care not to swap models mid-stream.  It's been fantastic.  Thanks to u/FR-1-Plan for the recommendation. 
+
+---------
+
+## 7.0 Update
+
+- Trimmed/reworded a lot of entries, in the interest of saving tokens and reducing the LLM's cognitive load.
+
+- Added a third toggle, labeled "eroticism," under NSFW.  This is the lightest option of the three, for people who want their smut to be somewhat separate from the rest of the story.  As always, the NSFW toggles are entirely optional, disabled by default.
+
+**Updated token count:**
+
+**main instructions:**
+- Role (roleplay): 52
+- CORE directives: 148
+- Main Switches: 411
+- Antislop: 245
+- NSFW Eroticism: 80
+
+= **936 total tokens, sans 'toys.'**
+
+**Toys:**
+- colored text: 98
+- logbook (main tracker): 527
+- date/time tracker: 114
+
+- = 739 tokens from 'toys.
+
+**1,675 tokens with everything enabled** 
+
+... plus 33 for the reminder at the end, if you want to count that, lol.
