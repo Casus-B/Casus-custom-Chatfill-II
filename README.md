@@ -51,7 +51,7 @@ I have tested (my version of) the preset, and found it to work very well, with t
 
 (All models, with the exception of Gemma 4, were tested exclusively through NanoGPT's subscription plan.  I tested Gemma 4 locally as well.)
 
-**UPDATE, July 2, 2026:** Here I used to say that reasoning models are recommended.  It is certainly true that reasoning models *tend* to follow the directions in your preset better than non-reasoning models, but there's an ongoing scholarly debate about whether reasoning models are good for roleplay/fiction more generally.  For my own part, I go back and forth on the issue.  Lately I'm of the opinion that non-reasoning is better overall.  A reasoning model may have better prompt adherence, but I feel that non-reasoning models are often a lot smarter otherwise.  And of course non-reasoning models will be faster, all else being equal.  YMMV.
+**UPDATE, July 2, 2026:** Here I used to say that reasoning models are recommended.  It is certainly true that reasoning models *tend* to follow the directions in your preset better than non-reasoning models, but there's an ongoing scholarly debate about whether reasoning models are good for roleplay/fiction more generally.  For my own part, I go back and forth on the issue.  Lately I'm of the opinion that non-reasoning is better overall, less prompt adherence, but also less likely to make dumb mistakes otherwise.  And of course non-reasoning models will be faster, all else being equal.  YMMV. 
 
 Here's a paper arguing that reasoning doesn't help in role play: https://aclanthology.org/2025.findings-acl.537.pdf
 
