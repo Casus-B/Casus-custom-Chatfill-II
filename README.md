@@ -75,6 +75,8 @@ As for what I changed/added:
 
 7. Added some 'toys,' in the form of individualized colored dialogue for NPCs (works even if you're just using a Narrator card), a time/date/weather tracker, and a big tracker that covers present characters, clothing/position, a brief rundown of prominent characters' motivations in the current scene, recent and ongoing plot developments, and sort of a decision tree for the AI to follow when crafting its approach to the current reply.  I honestly can't do without the big tracker.  It makes things so much more consistent in scenes with several different moving parts.
   (All of the 'toys' can be toggled on or off.)
+  
+8. Phrasing/structural adjustments too numerous to mention, really.  The changelog has a pretty detailed timeline.
 
 ------
 
