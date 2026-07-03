@@ -41,7 +41,7 @@ My custom version is designed to flesh out the preset, enhance it without adding
 # Tested Models
 
 I have tested (my version of) the preset, and found it to work very well, with the following models: 
-- GLM 4.6/4.7/5.0/5.1
+- GLM 4.6/4.7/5.0/5.1/5.2
 - Kimi 2.5
 - Deepseek 3.1/Terminus/3.2/Chimera/4.0
 - Gemma 4 26b/31b
