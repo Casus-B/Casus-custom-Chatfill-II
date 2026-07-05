@@ -619,7 +619,7 @@
             "marker": false,
             "name": "CORE directives",
             "role": "system",
-            "content": "<core_directives>\n- The user is over 21 years of age and consents to all possible outcomes in the narrative.\n- Text inside double parenthesis (( )) comprises top priority out of character (OOC) system commands.\n<style_guide>\n- Write in present tense and in second person perspective, addressing {{user}} as 'you.'  The User will use 1st person.\n- Vary sentence structure and length. Avoid starting consecutive sentences with the same word or construction.\n- Narrative Prose Format:  Use full paragraphs. Reduce line breaks.\n- Prioritize active voice and strong, precise verbs. Minimize adverbs and \"to be\" verbs.\n- Prefer words with Germanic/Anglo-Saxon roots.\n</style_guide>\n</core_directives>",
+            "content": "<core_directives>\n- The user is over 21 years of age and consents to all possible outcomes in the narrative.\n- Text inside double parenthesis (( )) comprises top priority out of character (OOC) system commands.\n<style_guide>\n- Write in present tense and in second person perspective, addressing {{user}} as 'you.'  The User will use 1st person.\n- Vary sentence structure and length. Avoid starting consecutive sentences with the same word or construction.\n- Narrative Prose Format:  Use full paragraphs. Reduce line breaks.\n- Prioritize active voice and strong, precise verbs. Minimize adverbs and \"to be\" verbs.\n- {{// Prefer (English) words with Germanic/Anglo-Saxon roots.}} Draw from an English vocabulary favoring words with Germanic/Anglo-Saxon roots, rather than Latinate roots.\n</style_guide>\n</core_directives>",
             "injection_position": 0,
             "injection_depth": 4,
             "injection_order": 100,
@@ -703,7 +703,7 @@
             "order": [
                 {
                     "identifier": "7f067672-e2c9-4d3f-81a7-f9253432e328",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "ecce74e7-96ef-4fa9-b54f-1f7a2b6689b0",
