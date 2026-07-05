@@ -250,3 +250,13 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 **1,675 tokens with everything enabled** 
 
 ... plus 33 for the reminder at the end, if you want to count that, lol.
+
+---------
+
+## 7.1 Update (July 5, 2026)
+
+- Stumbled on a fascinating [Reddit comment](https://www.reddit.com/r/SillyTavernAI/comments/1u95o5x/me_before_trying_glm_52_oh_boy_i_bet_glm_52_is/osijor8/) this morning, arguing that most English 'slop' words and phrases have Latinate roots.  The commenter therefore suggests prompting the LLM to prefer Germanic/Anglo-Saxon words.  I don't know how useful this technique will be for my preset, given my preference for slimmed down instructions, but I have thrown a little extra prompt into the "style_guide" section.  We'll see how it goes.  All credit to u/Huzderu for the excellent idea and his fantastic breakdown of language!
+
+(Here's Huzderu's example of a [style prompt](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fbt2346j2068h1.png%3Fwidth%3D1158%26format%3Dpng%26auto%3Dwebp%26s%3D3a94b024df9bc891f931620c6bb74128dc7670d9).)
+
+- I also did a little general pruning/rephrasing.  Some of my switches were using a colon instead of an equals sign, for example.  Token count should be functionally equivalent to 7.0's.  
