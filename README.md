@@ -269,4 +269,4 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 
 - Tiny phrasing change under the agency switch.  NPC "goals" are now NPC "agendas."  Probably doesn't matter, but there's a slight difference in connotation.  I feel "goals" could be construed as a bit too specific and/or lofty for the purpose of the instruction.  A "goal" is something you work towards.  "Agenda" tends to refer to any distinct motivation.  The latter, in typical use, is broader than the former.  That's my thought, anyway.  I doubt the LLM cares, lol.
 
-- Oh, and I also rephrased the optional toggle at the end to 'jailbreak' Mimo.  It seems to work better now.
+- Oh, and I also rephrased the optional toggle at the end to 'jailbreak' Mimo.  It seems to work a bit better now.
