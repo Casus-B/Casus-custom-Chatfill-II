@@ -259,4 +259,12 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 
 (Here's Huzderu's example of a [style prompt](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fbt2346j2068h1.png%3Fwidth%3D1158%26format%3Dpng%26auto%3Dwebp%26s%3D3a94b024df9bc891f931620c6bb74128dc7670d9).)
 
-- I also did a little general pruning/rephrasing.  Some of my switches were using a colon instead of an equals sign, for example.  Token count should be functionally equivalent to 7.0's.  
+- I also did a little general pruning/rephrasing.  Some of my switches were using a colon instead of an equals sign, for example.  Token count should be functionally equivalent to 7.0's. 
+
+----------
+
+## 7.2 Update (July 6, 2026)
+
+- Revamped the tracker.  It should now track major and minor plot points in a relatively concise manner, on top of tracking characters present in the scene, etc.  The old tracker was good, but it had a tendency to pile up spammy "quest experiences."  Certain LLMs are/were too overzealous in recording 'quest experiences,' too.  I had one run where Kimi 2.6 (otherwise an excellent model) was jotting down 3-4 'quest experience' notes per reply, lol.
+
+- Tiny phrasing change under the agency switch.  NPC "goals" are now NPC "agendas."  Probably doesn't matter, but there's a slight difference in connotation.  I feel "goals" could be construed as a bit too specific and/or lofty for the purpose of the instruction.  A "goal" is something you work towards.  "Agenda" tends to refer to any distinct motivation.  The latter, in typical use, is broader than the former.  That's my thought, anyway.  I doubt the LLM cares, lol.
