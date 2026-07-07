@@ -267,6 +267,8 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 
 - Revamped the tracker.  It should now track major and minor plot points in a relatively concise manner, on top of tracking characters present in the scene, etc.  The old tracker was good, but it had a tendency to pile up spammy "quest experiences."  Certain LLMs are/were too overzealous in recording 'quest experiences,' too.  I had one run where Kimi 2.6 (otherwise an excellent model) was jotting down 3-4 'quest experience' notes per reply, lol.
 
+(Been meaning to revamp the tracker for awhile.  [A few learned comments](https://www.reddit.com/r/SillyTavernAI/comments/1uic8va/the_hard_honest_truth_about_roleplaying_with_ai/ouhmk30/) finally got me off my duff, lol.  Credit to u/FR-1-Plan for the inspiration.
+
 - Tiny phrasing change under the agency switch.  NPC "goals" are now NPC "agendas."  Probably doesn't matter, but there's a slight difference in connotation.  I feel "goals" could be construed as a bit too specific and/or lofty for the purpose of the instruction.  A "goal" is something you work towards.  "Agenda" tends to refer to any distinct motivation.  The latter, in typical use, is broader than the former.  That's my thought, anyway.  I doubt the LLM cares, lol.
 
 - Oh, and I also rephrased the optional toggle at the end to 'jailbreak' Mimo.  It seems to work a bit better now.
