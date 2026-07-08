@@ -297,6 +297,6 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 
 - These changes, along with the tracker revamp described in my previous changelog, justify a full version update, hence 8.0.
 
-- Token count did go up a bit, but the non-toy instructions should still duck below the 1,000 token mark.  Enabling everything (including the "Eroticism" NSFW toggle, the colored text toggle, and the two trackers) will put you well under 1,800 tokens, which I consider pretty lightweight given that so many people run high-token-count tracker extensions on top of their presets. These extensions either cost extra API calls or context in the main call.  
+- Token count did go up a bit, but the non-toy instructions should still duck below the 1,000 token mark.  Enabling everything (including the "Eroticism" NSFW toggle, the colored text toggle, and the two trackers) will put you under 1,750 tokens, which I consider pretty lightweight given that so many people run high-token-count tracker extensions on top of their presets. These extensions either cost extra API calls or context in the main call.  
 
 - So you can either look at this preset as very lightweight without the 'toys,' or you could look at it as a *somewhat* lightweight preset with lots of bells and whistles.  Or so I would argue, lol.
