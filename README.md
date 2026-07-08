@@ -3,6 +3,8 @@ A modified, lightweight, universal preset for Sillytavern.  All credit to u/etei
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
 
+I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets. 
+
 -----
 
 # Table of Contents
@@ -14,7 +16,7 @@ https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_rev
 
 -----
 
-# What makes Chatfill II Special
+# What makes Chatfill II Special (updated July 8, 2026)
 
 To start, I will quote the author's aforementioned [Reddit post](https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/):
 
@@ -24,15 +26,25 @@ To start, I will quote the author's aforementioned [Reddit post](https://www.red
 >
 > But it turned out the problem was the wording and the form of the reminder. Adding verbatim repeats of the rules, or phrasing them as generic reminders, those didn't work. But the style I settled on here (you'll see it when you import the preset) does work. Works very well with reasoning models. This becomes clear the moment you check the models' reasoning output.
 
-He goes on to mention some of the 'switches' included in the preset, among them "Brevity," "Emotional Economy," and "Momentum."  Those three small entries accomplish so much.  Let me count the ways:
+When writing a preset, there is a customary tension between simplicity and fine grained control.  What do I mean by that?  Well, first one must understand that large language models are designed to pay special attention to the tokens at the very top, and at the very bottom, of the context window (i.e. the input text that is sent to the model before it formulates every reply, including prompt/preset instructions, character/persona cards, lorebook/databank entries, and chat history).  The stuff in the middle of the context is typically where LLMs get lost. 
 
-You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces such a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions. 
+Savvy preset writers typically handle this mechanism either by crafting a very light preset that fits in the tippy top of the context, or by splitting a heavier preset between the top and the very bottom.  Instructions at the absolute bottom are typically referred to as 'post-history' or sometimes they're formalized as a whole alternate 'chain of thought' for model reasoning.  These post-history instructions are the strongest directives your LLM receives.
 
-I've spent an embarassing amount of time testing presets, dissecting them, re-arranging them, customizing them.    I have seen many attempts at a 'variable post length' instruction, whereby the LLM dynamically adjusts the length of replies based on the situation.  I have never seen it work, and so I settled for a collection of different length instructions, to be manually toggled in different situations.  But I no longer have to do that, because ...
+A lightweight preset, with few chain-of-thought or post-history instructions, will tend to perform much better across models.  The downside is that some of your instructions may or may not be followed in any given reply.
 
-_Chatfill II's variable post length actually works._
+On the other hand, if you give the model extensive COT/post-history instructions, the model will have a much higher chance of following your instructions, but it may also churn through time/tokens reasoning its way through the COT.  You may even degrade the model's performance in other, subtle ways, by introducing your own rigid reasoning process on a model designed to "think" in its own peculiar way.  And of course, smaller models (or neurotic ones, like Kimi 2.6) may simply poop their pants and output nothing useful. 
 
-Together with the 'momentum' entry, Chatfill II's emotional economy switch addresses what is probably my biggest pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny tiny number of tokens.  
+The switches concept manages to hold onto simplicity while also providing a post-history nudge reminding the model to conform to the enabled switches in the system prompt at the top.   And this 'nudge' actually works!    Framing the preset's prior instructions as "enabled switches" seems to give the reminder a unique weight.
+
+The scheme isn't perfect; nothing is.  You will notice certain instructions not being followed here and there, particularly if you use a non-reasoning model, but perfect adherence isn't the goal, in my opinion.  The goal is what you might call context-rot (and/or user-annoyance) "harm reduction."  We reduce annoying AIisms and encourage good habits in their stead, with the idea that the occasional slopism isn't life threatening.
+
+In return, we get the benefits of simplicity, above: the preset remains lightweight, and comparatively easy for modern models, even small ones, to understand.  Response times are quick.  Token costs are low.  And as an added bonus, the preset remains relatively easy for any user to parse or edit, because it isn't split up all over the context window to maximize adherence.
+
+Apart from the switches concept, there are at least a couple more things that I greatly admire about Chatfill II.
+
+You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions. 
+
+Together with the 'momentum' entry, Chatfill II's emotional economy switch addresses what is probably my biggest pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny number of tokens.  
 
 My custom version is designed to flesh out the preset, enhance it without adding a ton of extra tokens.  My version is certainly an improvement for my purposes, and of course I recommend my version.  But I also heartily recommend the original, which works great out of the box, and also provides a peerless starting point for your own custom prompt.
 
@@ -53,7 +65,9 @@ I have tested (my version of) the preset, and found it to work very well, with t
 
 **UPDATE, July 2, 2026:** Here I used to say that reasoning models are recommended.  It is certainly true that reasoning models *tend* to follow the directions in your preset better than non-reasoning models, but there's an ongoing scholarly debate about whether reasoning models are good for roleplay/fiction more generally.  For my own part, I go back and forth on the issue.  Lately I'm of the opinion that non-reasoning is better overall, less prompt adherence, but also less likely to make dumb mistakes otherwise.  And of course non-reasoning models will be faster, all else being equal.  YMMV. 
 
-Here's a paper arguing that reasoning doesn't help in role play: https://aclanthology.org/2025.findings-acl.537.pdf
+Here's an albeit dated paper arguing that reasoning doesn't help in role play: https://aclanthology.org/2025.findings-acl.537.pdf
+
+Like I said, though, I will most likely change my mind again very soon.  There is no definitive answer, just a debate.   Bottom line: this preset works well with reasoning or without.  Follow your heart, lol.
 
 -----
 
@@ -69,7 +83,7 @@ As for what I changed/added:
 
 4. Added a 'writer role' toggle, as an alternative to the default 'roleplayer' role.  This isn't a big deal.  Some people swear that LLMs write better in the 'writer' role.  Some even insist that if you have the word 'roleplay' anywhere in your prompt, the prose will degrade.  I can't say I've ever noticed either phenomenon.  But it doesn't hurt to have the option. 
 
-5. Added two alternate "NSFW" toggles ("Hentai" and "eroticism").  Chatfill v2's existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  "Hentai" is different in terms of style and tone, but it's also quite aggressive.  "Eroticism" is the lite option, for people who like their smut but also want it mostly separate from the rest of the storyline.  All NSFW toggles are disabled by default, and entirely optional.
+5. Added two alternate "NSFW" toggles ("Hentai" and "eroticism").  Chatfill v2's existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  "Hentai" is different in terms of style and tone, but it's also quite aggressive.  "Eroticism" is the lite option, for people who like their smut but also want it mostly separate from the rest of the storyline.  All NSFW toggles are entirely optional, and disabled by default.
 
 6. I added a POV/Tense entry under "style_guide."  My preference is for second-person narration in present tense, so that's what you'll find, but it's easy enough to change.
 
@@ -272,3 +286,17 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 - Tiny phrasing change under the agency switch.  NPC "goals" are now NPC "agendas."  Probably doesn't matter, but there's a slight difference in connotation.  I feel "goals" could be construed as a bit too specific and/or lofty for the purpose of the instruction.  A "goal" is something you work towards.  "Agenda" tends to refer to any distinct motivation.  The latter, in typical use, is broader than the former.  That's my thought, anyway.  I doubt the LLM cares, lol.
 
 - Oh, and I also rephrased the optional toggle at the end to 'jailbreak' Mimo.  It seems to work a bit better now.
+
+-----------
+
+## 8.0 Update (July 8, 2026)
+
+- Inspired by [Geechin's excellent prompt](https://rentry.org/geechan#universal-roleplay-prompt), I've made quite a few little changes.  Credit to Geechin for some of the phrases/entries I've used.  His prompt also inspired me to apply the switch reminder to the beginning, as well as the end, of the context window. 
+
+- Again with Geechin's example in mind, I've strengthened the anti-parroting rule, and amended the style_guide further to emphasize strong prose.  I also added a note to the narrative_momentum switch to discourage NPCs giving expository speeches.
+
+- These changes, along with the tracker revamp described in my previous changelog, justify a full version update, hence 8.0.
+
+- Token count did go up a bit, but the non-toy instructions should still duck below the 1,000 token mark.  Enabling everything (including the "Eroticism" NSFW toggle, the colored text toggle, and the two trackers) will put you well under 1,800 tokens, which I consider pretty lightweight given that so many people run high-token-count tracker extensions on top of their presets. These extensions either cost extra API calls or context in the main call.  
+
+- So you can either look at this preset as very lightweight without the 'toys,' or you could look at it as a *somewhat* lightweight preset with lots of bells and whistles.  Or so I would argue, lol.
