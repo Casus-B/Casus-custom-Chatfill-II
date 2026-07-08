@@ -36,7 +36,7 @@ On the other hand, if you give the model extensive COT/post-history instructions
 
 The switches concept manages to hold onto simplicity while also providing a post-history nudge reminding the model to conform to the enabled switches in the system prompt at the top.   And this 'nudge' actually works!    Framing the preset's prior instructions as "enabled switches" seems to give the reminder a unique weight.
 
-The scheme isn't perfect; nothing is.  You will notice certain instructions not being followed here and there, particularly if you use a non-reasoning model, but perfect adherence isn't the goal, in my opinion.  The goal is what you might call context-rot (and/or user-annoyance) "harm reduction."  We reduce annoying AIisms and encourage good habits in their stead, with the idea that the occasional slopism isn't life threatening.
+The scheme isn't perfect; nothing is.  You will notice certain instructions not being followed here and there, particularly if you use a non-reasoning model, but perfect adherence isn't the goal, in my opinion.  The goal is what you might call context-rot (and/or user-annoyance) "harm reduction."  We reduce annoying AIisms and encourage good habits in their stead.  
 
 In return, we get the benefits of simplicity, above: the preset remains lightweight, and comparatively easy for modern models, even small ones, to understand.  Response times are quick.  Token costs are low.  And as an added bonus, the preset remains relatively easy for any user to parse or edit, because it isn't split up all over the context window to maximize adherence.
 
