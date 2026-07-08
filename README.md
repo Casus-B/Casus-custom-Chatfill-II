@@ -30,7 +30,7 @@ When writing a preset, there is a customary tension between simplicity and fine 
 
 Savvy preset writers typically handle this mechanism either by crafting a very light preset that fits in the tippy top of the context, or by splitting a heavier preset between the top and the very bottom.  Instructions at the absolute bottom are typically referred to as 'post-history' or sometimes they're formalized as a whole alternate 'chain of thought' for model reasoning.  These post-history instructions are the strongest directives your LLM receives.
 
-A lightweight preset, with zero-to-few chain-of-thought or post-history instructions, will tend to perform much better, both in terms of speed, and in terms of general applicability (i.e. a wider range of models will work).  The downside is that some of your instructions may or may not be followed in any given reply.
+A lightweight preset, with zero-to-few chain-of-thought or post-history instructions, will tend to perform much better, both in terms of speed and in terms of general applicability (i.e. a wider range of models will work).  The downside is that some of your instructions may or may not be followed in any given reply.
 
 On the other hand, if you give the model extensive COT/post-history instructions, the model will have a higher chance of following your instructions, but it may also churn through time/tokens reasoning its way through the COT.  You may even [degrade the model's performance](https://gail.wharton.upenn.edu/research-and-insights/tech-report-chain-of-thought/) in other, subtle ways, by imposing your own rigid reasoning process on a model designed to "think" in its own peculiar way.  And of course, smaller models (or neurotic ones, like Kimi 2.6) may simply poop their pants and output nothing useful. 
 
@@ -42,7 +42,7 @@ In return, we get the benefits of simplicity, above: the preset remains lightwei
 
 Apart from the switches concept, there are at least a couple more things that I greatly admire about Chatfill II.
 
-You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces a brisk pace, it tends to sidestep the problem of slop even without explicit antislop instructions. 
+You'll see later that I added a small 'antislop' entry to my version of the preset, and the antislop instructions _do help_, but because Chatfill enforces a brisk pace, it tends to reduce the problem of slop even without explicit antislop instructions. 
 
 Together with the 'momentum' entry, Chatfill II's emotional economy switch addresses what is probably my biggest pet peeve about AI roleplay or collaborative fiction: the tendency of AI to ruminate endlessly on a given emotional beat.  Only slightly less annoying is the tendency of AI models to stop and 'hover.'  Chatfill II addresses both of those problems.  And it does so while consuming a tiny number of tokens.  
 
