@@ -147,5 +147,5 @@ You have the first turn with {{char}}. Start the simulation.
 [Chat history goes here.]
 
 <final_instruction>
-- Before replying, locate every switch in the system prompt and apply each enabled one to this response.
+- **CRITICAL.** Before replying, locate every switch in the system prompt and apply each enabled switch to your response.
 </final_instruction>
