@@ -128,7 +128,7 @@ The main tracker appears at the top of every chat message, in a collapsed/hidden
 
 Initially, I just wanted a mechanism to force the LLM to remember which characters are preset in any given scene.  This then expanded to a tiny note on what each person is wearing and their current physical position.  Then it expanded again based on my seeing an excellent 'plot point/direction' tracker in a different preset (unfortunately I don't remember which).  Then I added colors to integrate with my colored dialogue prompt entry, and so on.   You obviously don't have to use the tracker with this preset, but I believe it's helpful enough, particularly in stories featuring large casts of characters, to be enabled by default.
 
-When it's collapsed, the main tracker looks like this:
+When it's collapsed (default behavior), the main tracker looks like this:
 
 ![Tracker Collapsed](/screenshots/tracker-collapsed.webp)
 
