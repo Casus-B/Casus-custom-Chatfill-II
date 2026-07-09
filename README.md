@@ -38,7 +38,7 @@ The switches approach manages to forge a middle ground: it eschews detailed post
 
 The scheme isn't perfect; nothing is.  You will notice certain instructions not being followed here and there, particularly if you use a non-reasoning model, but perfect adherence isn't the goal, in my opinion.  The goal is what you might call context-rot (and/or user-annoyance) "harm reduction."  We reduce annoying AIisms and encourage good habits in their stead.  
 
-In return, we (mostly) get to eat our cake and eat it too: we get a measure of the detailed control proffered by heavier presets, and yet the preset remains comparatively lightweight, comparatively easy for modern models, even small ones, to understand.  Response times are quick.  Token costs are low.  And as an added bonus, the preset remains relatively easy for any user to parse or edit, because it isn't split up all over the context window to maximize adherence.
+In return, we (mostly) get to eat our cake and eat it too: we get a measure of the detailed control proffered by heavier presets, and yet the preset remains slim, comparatively easy for modern models, even small ones, to understand.  Response times are quick.  Token costs are low.  And as an added bonus, the preset remains relatively easy for any user to parse or edit, because it isn't split up all over the context window to maximize adherence.
 
 Apart from the switches concept, there are at least a couple more things that I greatly admire about Chatfill II.
 
