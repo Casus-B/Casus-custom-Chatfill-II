@@ -126,7 +126,11 @@ As for what I changed/added:
 
 The main tracker appears at the top of every chat message, in a collapsed/hidden xml block above the date/time/location status.  When it's collapsed, it looks like this:
 
+![Tracker Collapsed](/screenshots/tracker-collapsed.webp)
 
+When expanded, the tracker will look something like this:
+
+![Tracker expanded](/screenshots/tracker-expanded.webp)
 
 -----
 
