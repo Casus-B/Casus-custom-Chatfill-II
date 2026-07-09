@@ -12,6 +12,7 @@ I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless other
 - [Tested Models](#tested-models)
 - [What My Version Changes](#what-my-version-changes)
 - [Token Count](#token-count)
+- [The Tracker](#the-tracker)
 - [Further Revisions (Changelog)](further-revisions)
 
 -----
@@ -71,7 +72,7 @@ Like I said, though, I will most likely change my mind again very soon.  There i
 
 -----
 
-# What My Version Changes (as of version 7.0)
+# What My Version Changes (as of version 7+)
 
 As for what I changed/added:
 
@@ -116,6 +117,16 @@ As for what I changed/added:
 **1,675 tokens with everything enabled** 
 
 ... plus 33 for the reminder at the end, if you want to count that, lol.
+
+-----
+
+# The Tracker
+
+(this section updated July 9, 2026)
+
+The main tracker appears at the top of every chat message, in a collapsed/hidden xml block above the date/time/location status.  When it's collapsed, it looks like this:
+
+
 
 -----
 
