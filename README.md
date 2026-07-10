@@ -151,7 +151,7 @@ By default, then, anything in my chat history that's older than 32k tokens is in
 
 All of which is to say that unless you're content with very short chats or storylines, you will need to use some sort of tool to manage the model's memory.  My tracker helps quite a bit with short-term consistency/continuity, but no tracker, no preset, can address the problem of long term memory.
 
-Sillytavern has a wealth of options available, many of them extremely impressive.  With the help of these tools, it is entirely possible to reach a point where the memory-management problem is almost entirely hands' off, even when you're involved in extremely long/complex narratives.  But getting to that point often takes a lot of tweaking.
+Sillytavern has a wealth of memory-management options available, many of them extremely impressive.  With the help of these tools, it is entirely possible to reach a point where the memory-management problem is almost entirely hands' off, even when you're involved in extremely long/complex narratives.  But getting to that point often takes a lot of tweaking.
 
 So, it isn't my intention to shill for anything in particular.  For those who might be curious, my solution of choice is [MemoryBooks](https://github.com/aikohanasaki/SillyTavern-MemoryBooks) when I'm on Sillytavern, or its analogue ( [Lumibooks](https://github.com/AMousePad/LumiBooks) ) when I'm on [Lumiverse](https://github.com/prolix-oc/Lumiverse), but I'm also not arrogant enough to presume that my preferences match everyone's. 
 
