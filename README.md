@@ -141,11 +141,11 @@ When expanded, the tracker will look something like this:
 
 ## A Note On Memory
 
-I wrote at length, above, about context windows.  The sad fact is that large language models have only two resources to draw upon when they craft each response: the first is the information on which they were trained, and the second is the input text fed to them by you (i.e. the context window), in the moment.  Models have zero awareness of anything else. 
+Above, I wrote at length about context windows.  The sad fact is that large language models have only two resources to draw upon when they craft each response: the first is the information on which they were trained, and the second is the input text fed to them by you (i.e. the context window), in the moment.  Models have zero awareness of anything else. 
 
-These days, it isn't uncommon to see grandiose claims about a model's context size, sometimes as high as one million tokens.  Unfortunately those claims do not extend to our use case (roleplay or collaborative fiction).  What may work for coding doesn't necessarily work for narrative.  It is generally acknowledged that narrative coherence degrades if you expand the context window beyond a relatively short span.  Opinions differ as to where that threshold lies, exactly, and models do vary, but as a general rule, I peg the number at around 40k.  Usually, I roleplay with a context window of 32k tokens.
+These days, it isn't uncommon to see grandiose claims about a model's context size, sometimes as high as one million tokens.  Unfortunately those claims do not extend to our use case (roleplay or collaborative fiction).  What may work for coding doesn't necessarily work for narrative.  It is generally acknowledged that narrative coherence degrades if you expand the context window beyond a relatively short span.  Opinions differ as to where exactly that threshold lies, and models do vary, but as a general rule, I peg the number at around 40k.  Usually, I roleplay with a context window of 32k tokens.
 
-Anything in my chat history that's older than 32k tokens is instantly forgotten. 
+By default, then, anything in my chat history that's older than 32k tokens is instantly forgotten. 
 
 All of which is to say that unless you're content with very short chats or storylines, you will need to use some sort of tool to manage the model's memory.  My tracker helps quite a bit with short-term consistency/continuity, but no tracker, no preset, can address the problem of long term memory.
 
