@@ -18,7 +18,8 @@ I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless other
 
 -----
 
-# What makes Chatfill II Special (updated July 8, 2026)
+# What makes Chatfill II Special 
+(updated July 8, 2026)
 
 To start, I will quote the author's aforementioned [Reddit post](https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/):
 
