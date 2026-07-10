@@ -86,7 +86,7 @@ As for what I changed/added:
 
 5. Added two alternate "NSFW" toggles ("Hentai" and "eroticism").  Chatfill v2's existing NSFW toggle ("Smut") goes for a Literotica flavor, and it prescribes a storyline that exists for smut.  "Hentai" is different in terms of style and tone, but it's also quite aggressive.  "Eroticism" is the lite option, for people who like their smut but also want it mostly separate from the rest of the storyline.  All NSFW toggles are entirely optional, and disabled by default.
 
-6. I added a POV/Tense entry under "style_guide."  My preference is for second-person narration in present tense, so that's what you'll find, but it's easy enough to change.
+6. I added a POV/Tense entry under "style_guide."  My preference is for second-person narration in present tense, so that's what you'll find, but it's easy enough to change.  I've rewritten most of the style_guide by now, in fact.
 
 7. Added some 'toys,' in the form of individualized colored dialogue for NPCs (works even if you're just using a Narrator card), a time/date/weather tracker, and a big tracker that covers present characters, clothing/position, a brief rundown of prominent characters' motivations in the current scene, recent and ongoing plot developments, and sort of a decision tree for the AI to follow when crafting its approach to the current reply.  I honestly can't do without the big tracker.  It makes things so much more consistent in scenes with several different moving parts.
   (All of the 'toys' can be toggled on or off.)
