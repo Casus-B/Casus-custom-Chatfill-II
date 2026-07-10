@@ -74,7 +74,8 @@ Like I said, though, I will most likely change my mind again very soon.  There i
 
 -----
 
-# What My Version Changes (as of version 7+)
+# What My Version Changes 
+(as of version 7+)
 
 As for what I changed/added:
 
