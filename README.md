@@ -139,7 +139,7 @@ When expanded, the tracker will look something like this:
 
 -----
 
-## A Note On Memory
+# A Note On Memory
 
 (This section added on July 10, 2026)
 
