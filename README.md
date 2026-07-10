@@ -11,8 +11,9 @@ I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless other
 - [What Makes Chatfill II Special](#what-makes-chatfill-ii-special)
 - [Tested Models](#tested-models)
 - [What My Version Changes](#what-my-version-changes)
-- [Token Count](#token-count)
 - [The Tracker](#the-tracker)
+- [Token Count](#token-count)
+- [A Note On Memory](#a-note-on-memory)
 - [Further Revisions (Changelog)](further-revisions)
 
 -----
@@ -95,6 +96,24 @@ As for what I changed/added:
 
 ------
 
+# The Tracker
+
+(this section updated July 9, 2026)
+
+The main tracker appears at the top of every chat message, in a collapsed/hidden xml block above the date/time/location status.  The Tracker is designed to provide the LLM with both a consistent, update-to-date rundown of the immediate situation, and an albeit simple list of choices about where to take the scene.  
+
+Initially, I just wanted a mechanism to force the LLM to remember which characters are present in any given scene.  This then expanded to a tiny note on what each person is wearing and their current physical position.  Then it expanded again based on my seeing an excellent 'plot point/direction' tracker in a different preset (unfortunately I don't remember which).  Then I added colors to integrate with my colored dialogue prompt entry, and so on.   You obviously don't have to use the tracker with this preset, but I believe it's helpful enough, particularly in stories featuring large casts of characters, to be enabled by default.
+
+When it's collapsed (default behavior), the main tracker looks like this:
+
+![Tracker Collapsed](/screenshots/tracker-collapsed.webp)
+
+When expanded, the tracker will look something like this:
+
+![Tracker expanded](/screenshots/tracker-expanded.webp)
+
+-----
+
 ## Token Count
 (as of version 7.0)
 
@@ -120,21 +139,46 @@ As for what I changed/added:
 
 -----
 
-# The Tracker
+## A Note On Memory
 
-(this section updated July 9, 2026)
+I wrote at length, above, about context windows.  The sad fact is that large language models have only two resources to draw upon when they craft each response: the first is the information on which they were trained, and the second is the input text fed to them by you (i.e. the context window), in the moment.  Models have zero awareness of anything else. 
 
-The main tracker appears at the top of every chat message, in a collapsed/hidden xml block above the date/time/location status.  The Tracker is designed to provide the LLM with both a consistent, update-to-date rundown of the immediate situation, and an albeit simple list of choices about where to take the scene.  
+These days, it isn't uncommon to see grandiose claims about a model's context size, sometimes as high as one million tokens.  Unfortunately those claims do not extend to our use case (roleplay or collaborative fiction).  What may work for coding doesn't necessarily work for narrative.  It is generally acknowledged that narrative coherence degrades if you expand the context window beyond a relatively short span.  Opinions differ as to where that threshold lies, exactly, and models do vary, but as a general rule, I peg the number at around 40k.  Usually, I roleplay with a context window of 32k tokens.
 
-Initially, I just wanted a mechanism to force the LLM to remember which characters are present in any given scene.  This then expanded to a tiny note on what each person is wearing and their current physical position.  Then it expanded again based on my seeing an excellent 'plot point/direction' tracker in a different preset (unfortunately I don't remember which).  Then I added colors to integrate with my colored dialogue prompt entry, and so on.   You obviously don't have to use the tracker with this preset, but I believe it's helpful enough, particularly in stories featuring large casts of characters, to be enabled by default.
+Anything in my chat history that's older than 32k tokens is instantly forgotten. 
 
-When it's collapsed (default behavior), the main tracker looks like this:
+All of which is to say that unless you're content with very short chats or storylines, you will need to use some sort of tool to manage the model's memory.  My tracker helps quite a bit with short-term consistency/continuity, but no tracker, no preset, can address the problem of long term memory.
 
-![Tracker Collapsed](/screenshots/tracker-collapsed.webp)
+Sillytavern has a wealth of options available, many of them extremely impressive.  With the help of these tools, it is entirely possible to reach a point where the memory-management problem is almost entirely hands' off, even when you're involved in extremely long/complex narratives.  But getting to that point often takes a lot of tweaking.
 
-When expanded, the tracker will look something like this:
+So, it isn't my intention to shill for anything in particular.  For those who might be curious, my solution of choice is [MemoryBooks](https://github.com/aikohanasaki/SillyTavern-MemoryBooks) when I'm on Sillytavern, or its analogue ( [Lumibooks](https://github.com/AMousePad/LumiBooks) ) when I'm on [Lumiverse](https://github.com/prolix-oc/Lumiverse), but I'm also not arrogant enough to presume that my preferences match everyone's. 
 
-![Tracker expanded](/screenshots/tracker-expanded.webp)
+Instead, I will attempt to list prominent options, along with a small blurb about what each does and how easy each is to set up:
+
+- [Summaryception](https://github.com/Lodactio/Extension-Summaryception) 
+  - This is probably the best out-of-the-box solution.  The default settings should work admirably.  Summaryception automatically 'compresses' your chat history by hiding past messages, then summarizing them and injecting the summaries back into the chat history where the hidden messages would otherwise appear.
+  
+-  [MemoryBooks](https://github.com/aikohanasaki/SillyTavern-MemoryBooks)
+  - In my opinion, MemoryBooks offers the best ratio of functionality and ease-of-use.  It isn't the fanciest solution; nor is it the easiest, but it doesn't require tool calls or extra API calls, doesn't require setting up databases or embedding models.  It can either be simple or complex, depending on your preference.  It can be hands-on or entirely automated.  If you get good at crafting [Side Prompts](https://github.com/aikohanasaki/SillyTavern-MemoryBooks/blob/main/USER_GUIDE.md#%EF%B8%8F-how-side-prompts-work), there's almost no limit to what the extension can do.
+  
+- [Tunnelvision](https://github.com/Coneja-Chibi/TunnelVision)
+  - This is what might call MemoryBooks' extremely elaborate cousin.  It incorporates heavy use of tool calling.  It also has a pretty neat little system for organzing lorebook entries for more efficient reference.  A lot of people swear by it, and I happily encourage anyone to check it out.  I just found it a little too fussy.
+  
+- [CharMemory](https://github.com/bal-spec/sillytavern-character-memory)
+  - I don't have any personal experience with CharMemory because I generally avoid group chats.  My "character cards" are actually in lorebook entries, 99% of the time, and so a per-character-card memory system doesn't appeal to me.  Still, this is a very popular option.
+  
+- [Qvink MessageSummarize](https://github.com/qvink/SillyTavern-MessageSummarize)
+  - This is a very interesting and useful extension even if you don't use it as your primary memory solution.  The gist is that it allows you to summarize individual messages in place.  These summaries are then injected as a group, under long term and short term memory, with the older summaries automatically aging out.  Once the collective summaries grow past the token budget you choose in settings, the older messages finally just drop out completely.  This functionality can either be automated or manual.
+    - Personally I think the automated solution is way too clunky, but as I say I keep the extension installed because it is extremely useful to be able to summarize any single message and then insert that summary into context at the press of a button.  Important event just happened that you want to call special attention to?  Press the Qvink button.  Bang, done.
+    
+- [VectHare](https://github.com/Coneja-Chibi/VectHare) / [VectFox](https://github.com/KritBlade/VectFox)
+  - These two are of a feather.  I believe VectFox is more up-to-date as of today.  Either way, both extensions use RAG-database/embedding/vector-storage to turn your prior chat messages into memories.  If you do the full-fat set up, then a sidecar LLM will manage those embeddings/memories for you, inserting them "intelligently."  Allegedly this approach yields more effective memory organization/retrieval than the stock keyword functionality in lorebooks, but to be honest I've never gotten it to work especially well, even after spending the better part of an afternoon setting it up with the whole Qdrant database and sidecar LLM.  Maybe I'm doing it wrong.  I still encourage you to try it if it sounds interesting.
+  
+- [OpenVault](https://github.com/vadash/openvault/)
+  - Another RAG-based solution.  I honestly don't have enough experience with this one to comment, but I've heard good things.
+  
+- [Smart-Memory](https://github.com/senjinthedragon/Smart-Memory/)
+  - Same deal.  Heard good things, no personal experience.
 
 -----
 
