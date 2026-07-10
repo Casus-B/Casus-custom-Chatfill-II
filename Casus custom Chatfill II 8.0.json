@@ -59,7 +59,7 @@
             "name": "FINAL INSTRUCTION",
             "system_prompt": true,
             "role": "user",
-            "content": "<final_instruction>\n- **CRITICAL.** Before replying, locate every switch in the system prompt and apply each enabled switch to your response.\n</final_instruction>",
+            "content": "<final_instruction>\n- **CRITICAL:** Before replying, locate every switch in the system prompt and apply each enabled switch to your response.\n</final_instruction>",
             "identifier": "jailbreak",
             "injection_position": 0,
             "injection_depth": 4,
