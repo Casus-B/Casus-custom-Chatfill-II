@@ -30,7 +30,7 @@ To start, I will quote the author's aforementioned [Reddit post](https://www.red
 
 When writing a preset, there is a customary tension between simplicity and fine grained control.  What do I mean by that?  Well, first one must understand that large language models are designed to pay special attention to the tokens at the very top, and at the very bottom, of the context window (i.e. the input text that is sent to the model before it formulates every reply, including prompt/preset instructions, character/persona cards, lorebook/databank entries, and chat history).  The stuff in the middle of the context is typically where LLMs get lost. 
 
-Savvy preset writers typically handle this mechanism either by crafting a light/simple preset that fits in the tippy top of the context, or by splitting a heavier preset between the top and the bottom.  Instructions at the absolute bottom are typically referred to as 'post-history' or sometimes they're formalized as a whole alternate 'chain of thought' for model reasoning.  These post-history instructions are the strongest directives your LLM receives.
+Savvy preset writers typically handle this mechanism either by crafting a light/simple preset that fits in the tippy top of the context, or by splitting a heavier preset between the top and the bottom.  Instructions at the absolute bottom are typically referred to as 'post-history' or sometimes they're formalized as a whole alternate 'chain of thought' (COT) for model reasoning.  These post-history instructions are the strongest directives your LLM receives.
 
 A lightweight preset, with zero-to-few chain-of-thought or post-history instructions, will tend to perform better, both in terms of speed and in terms of general applicability (i.e. a wider range of models will work).  The downside is that a simple lightweight preset by definition gives you less fine-grained control, and in the absence of strong post-history instructions, the model may ignore certain (e.g. highly specific) directives on any given reply.  
 
@@ -77,7 +77,7 @@ Like I said, though, I will most likely change my mind again very soon.  There i
 
 As for what I changed/added:
 
-1. A 'preamble' toggle at the very top for use with Deepseek v4.  The preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting invisible instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work very well.  You can disable this, or not, when using other models.  Leaving it on doesn't seem to hurt anything.
+1. A 'preamble' toggle at the very top for use with Deepseek v4.  The preamble just says that everything below it supersedes prior instructions.  People seem to think that Deepseek is 'nerfing' v4 by injecting invisible instructions before the model sees your prompt.  I don't know if that's true, but FWIW the preamble tactic seems to work.  You can disable this, or not, when using other models.  Leaving it on doesn't seem to hurt anything.
 
 2. An 'antislop entry,' weighing in at ~250 tokens.
 
