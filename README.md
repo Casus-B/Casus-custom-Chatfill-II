@@ -158,7 +158,7 @@ Instead, I will attempt to list prominent options, along with a small blurb abou
 - [Summaryception](https://github.com/Lodactio/Extension-Summaryception) 
   - This is probably the best out-of-the-box solution.  The default settings should work admirably.  Summaryception automatically 'compresses' your chat history by hiding past messages, then summarizing them and injecting the summaries back into the chat history where the hidden messages would otherwise appear.
   
--  [MemoryBooks](https://github.com/aikohanasaki/SillyTavern-MemoryBooks)
+- [MemoryBooks](https://github.com/aikohanasaki/SillyTavern-MemoryBooks)
   - In my opinion, MemoryBooks offers the best ratio of functionality and ease-of-use.  It isn't the fanciest solution; nor is it the easiest, but it doesn't require tool calls or extra API calls, doesn't require setting up databases or embedding models.  It can either be simple or complex, depending on your preference.  It can be hands-on or entirely automated.  If you get good at crafting [Side Prompts](https://github.com/aikohanasaki/SillyTavern-MemoryBooks/blob/main/USER_GUIDE.md#%EF%B8%8F-how-side-prompts-work), there's almost no limit to what the extension can do.
   
 - [Tunnelvision](https://github.com/Coneja-Chibi/TunnelVision)
