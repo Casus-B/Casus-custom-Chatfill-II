@@ -141,6 +141,8 @@ When expanded, the tracker will look something like this:
 
 ## A Note On Memory
 
+(This section added on July 10, 2026)
+
 Above, I wrote at length about context windows.  The sad fact is that large language models have only two resources to draw upon when they craft each response: the first is the information on which they were trained, and the second is the input text fed to them by you (i.e. the context window), in the moment.  Models have zero awareness of anything else. 
 
 These days, it isn't uncommon to see grandiose claims about a model's context size, sometimes as high as one million tokens.  Unfortunately those claims do not extend to our use case (roleplay or collaborative fiction).  What may work for coding doesn't necessarily work for narrative.  It is generally acknowledged that narrative coherence degrades if you expand the context window beyond a relatively short span.  Opinions differ as to where exactly that threshold lies, and models do vary, but as a general rule, I peg the number at around 40k.  Usually, I roleplay with a context window of 32k tokens.
