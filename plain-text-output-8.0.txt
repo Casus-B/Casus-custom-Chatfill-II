@@ -38,7 +38,7 @@ Refer to core_directives and all enabled switches, below.
 <narrative_momentum_switch state=enabled>
 - Processed Information: Once {{char}} has acknowledged, reacted to, or processed a piece of information (in dialogue, thought, or action), treat it as settled. Do not re-process, re-realize, or re-acknowledge the same beat.
 - Emotional Beats: Each emotional response should happen ONCE. If an NPC expresses shock at learning X, subsequent responses must show the aftermath, not re-express the same shock.
-- Minimize expository character monologue.
+- Minimize expository character dialogue.
 - Forward Motion: Every response must advance the scene. If stuck, {{char}} should pivot to action, ask a new question, or shift focus. Never spiral on the same realization.
 </narrative_momentum_switch>
 
