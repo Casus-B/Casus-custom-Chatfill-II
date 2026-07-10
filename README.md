@@ -14,7 +14,7 @@ I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless other
 - [The Tracker](#the-tracker)
 - [Token Count](#token-count)
 - [A Note On Memory](#a-note-on-memory)
-- [Further Revisions (Changelog)](further-revisions)
+- [Further Revisions (Changelog)](#further-revisions)
 
 -----
 
