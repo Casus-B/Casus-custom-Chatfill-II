@@ -373,9 +373,9 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 
 ## 8.1 Update (July 24, 2026)
 
-- Lots of little additions/trimmings/rephrasings.  The end result is a stronger and more consistent set of instructions. 
+- Lots of little additions/trimmings/rephrasings.  The end result is a stronger and more consistent set of instructions.  For example, there were a couple instances of "should" that now read as "must."
 
-- References to {{char}} have been excised, for example, in an effort to eliminate any distinction between {{char}} and other characters.  The problem is that people can use a narrator card (my preference), or they can use a single character card (also something I do, but a single character card is a defacto narrator, too), or they can use multiple character cards in a group chat (not my preference at all and I wouldn't recommend it, but it is a valid choice). 
+- For another example, references to {{char}} have been excised, in an effort to eliminate any distinction between {{char}} and other characters.  The problem is that people can use a narrator card (my preference), or they can use a single character card (also something I do, but a single character card is a defacto narrator, too), or they can use multiple character cards in a group chat (not my preference at all and I wouldn't recommend it, but it is a valid choice). 
     - So, if you have instructions referencing {{char}} and instructions referencing 'characters' or 'NPCs,' the LLM might infer that the former instructions don't apply to NPCs, or that the latter instructions don't apply to {{char}}, if {{char}} is written as a character card.  Or if you have just a reference to {{char}} at the top, and then a bunch of instructions mentioning 'characters' or 'NPCs,' again the LLM might assume that the character described by the character card is exempt.  This is a very small concern, to be sure, but I aim for the cleanest possible prompt.
 
 - Token cost is functionally unchanged.
