@@ -382,7 +382,7 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 
 ---------
 
-## 8.2 (July 29, 2026)
+## 8.2 Update (July 29, 2026)
 
 - Adjusted the default sampler settings.  They are now much less restrictive.   This change results in better prompt adherence, per my testing.
 
