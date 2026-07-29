@@ -379,3 +379,11 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
     - So, if you have instructions referencing {{char}} and instructions referencing 'characters' or 'NPCs,' the LLM might infer that the former instructions don't apply to NPCs, or that the latter instructions don't apply to {{char}}, if {{char}} is written as a character card.  Or if you have just a reference to {{char}} at the top, and then a bunch of instructions mentioning 'characters' or 'NPCs,' again the LLM might assume that the character described by the character card is exempt.  This is a very small concern, to be sure, but I aim for the cleanest possible prompt.
 
 - Token cost is functionally unchanged.
+
+---------
+
+## 8.2 (July 29, 2026)
+
+- Adjusted the default sampler settings.  They are now much less restrictive.   This change results in better prompt adherence, per my testing.
+
+- The prompt itself is unchanged.
