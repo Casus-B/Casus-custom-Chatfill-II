@@ -120,7 +120,7 @@ When expanded, the tracker will look something like this:
 
 This example of the tracker is huge, but I wanted to show you what it looks like when you're dealing with an enormous cast of characters.  It can, in fact, keep track of more than a dozen characters.
 
-The example is also a little weird from a narrative perspective, but again, I feel like that's a bonus here: in the pictured story, a bunch of characters from My Hero Academia are planning to put on a Bleach cosplay, and they're eating lunch in the middle of the planning session.  This Bleach cosplay idea was something that the LLM just sort of threw into my lap and I figured let's roll with it.
+The example is also a little weird from a narrative perspective, but again, I feel like that's a bonus here: in the pictured story, a bunch of characters from My Hero Academia are planning to put on a Bleach cosplay, and they're eating lunch in the middle of the planning session.  This Bleach cosplay idea was something that the LLM just sort of threw into my lap and I figured let's roll with it.  The idea is off the wall enough to demonstrate that the LLM can come up with some interesting plots, with this preset, and to demonstrate that the tracker is capable of keeping the LLM on message during what is a pretty complex scenario (14 characters from one anime plotting out a fashion show featuring a bunch of characters from a different anime).
 
 -----
 
