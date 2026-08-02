@@ -118,7 +118,9 @@ When expanded, the tracker will look something like this:
 
 ![Tracker expanded](/screenshots/mha-tracker-expanded.webp)
 
-(This example of the tracker is huge, but I wanted to show you what it looks like when you're dealing with an enormous cast of characters.  It can, in fact, keep track of more than a dozen characters.)
+This example of the tracker is huge, but I wanted to show you what it looks like when you're dealing with an enormous cast of characters.  It can, in fact, keep track of more than a dozen characters.
+
+The example is also a little weird from a narrative perspective, but again, I feel like that's a bonus here: in the pictured story, a bunch of characters from My Hero Academia are planning to put on a Bleach cosplay, and they're eating lunch in the middle of the planning session.  This Bleach cosplay idea was something that the LLM just sort of threw into my lap and I figured let's roll with it.
 
 -----
 
