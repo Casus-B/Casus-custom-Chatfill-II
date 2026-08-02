@@ -112,11 +112,11 @@ Initially, I just wanted a mechanism to force the LLM to remember which characte
 
 When it's collapsed (default behavior), the main tracker looks like this:
 
-![Tracker Collapsed](/screenshots/mha tracker collapsed.webp)
+![Tracker Collapsed](/screenshots/mha-tracker-collapsed.webp)
 
 When expanded, the tracker will look something like this:
 
-![Tracker expanded](/screenshots/mha tracker expanded.webp)
+![Tracker expanded](/screenshots/mha-tracker-expanded.webp)
 
 -----
 
