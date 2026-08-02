@@ -3,7 +3,9 @@ A modified, lightweight, universal preset for Sillytavern.  All credit to u/etei
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
 
-I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets.  And an EXTRA HUGE thanks to [dystoria](#83-update-aug-1-2026), who has shared [tons of insight](https://rentry.org/dystoria-chatfill).
+I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets.  
+
+And an **EXTRA HUGE thanks** to [dystoria](#83-update-aug-1-2026), who has shared [tons of insight](https://rentry.org/dystoria-chatfill).
 
 -----
 
@@ -95,6 +97,8 @@ As for what I changed/added:
   (All of the 'toys' can be toggled on or off.)
   
 8. Phrasing/structural adjustments too numerous to mention, really.  The changelog has a pretty detailed timeline.
+
+9. As of version of 8.3, the preset now has dystoria's regex script attached.  The regex script cleans context window of tracker information that is more than 2 messages old.  This represents a potentially huge savings in token cost, along with a potential reduction in LLM confusion.
 
 ------
 
