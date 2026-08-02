@@ -104,7 +104,7 @@ As for what I changed/added:
 
 # The Tracker
 
-(this section updated July 9, 2026)
+(this section updated Aug 1, 2026)
 
 The main tracker appears at the top of every chat message, in a collapsed/hidden xml block above the date/time/location status.  The Tracker is designed to provide the LLM with both a consistent, update-to-date rundown of the immediate situation, and an albeit simple list of choices about where to take the scene.  
 
@@ -117,6 +117,8 @@ When it's collapsed (default behavior), the main tracker looks like this:
 When expanded, the tracker will look something like this:
 
 ![Tracker expanded](/screenshots/mha-tracker-expanded.webp)
+
+(This example of the tracker is huge, but I wanted to show you what it looks like when you're dealing with an enormous cast of characters.  It can, in fact, keep track of more than a dozen characters.)
 
 -----
 
