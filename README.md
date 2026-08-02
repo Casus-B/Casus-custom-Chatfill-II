@@ -3,7 +3,7 @@ A modified, lightweight, universal preset for Sillytavern.  All credit to u/etei
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
 
-I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets. 
+I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets.  And an EXTRA HUGE thanks to [dystoria](#83-update-aug-1-2026), who has shared [tons of insight](https://rentry.org/dystoria-chatfill).
 
 -----
 
@@ -387,3 +387,11 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 - Adjusted the default sampler settings.  They are now much less restrictive.   This change results in slightly better prompt adherence, per my testing.
 
 - The prompt itself is unchanged.
+
+--------
+
+## 8.3 Update (Aug 1, 2026)
+
+- **Big news:**  The spectacular dystoria (/u/dystoria_ on Reddit) reached out to me to show me his revisions to the preset.  Those revisions are laid out in great length, with a lot of fantastic accompanying information, at dystoria's [Rentry page](https://rentry.org/dystoria-chatfill).
+
+- This update is not meant to be my final word on dystoria's insights, but I did want to push dystoria's revisions to the tracker's formatting and the accompanying regex script, which potentially represents a huge savings in input tokens.
