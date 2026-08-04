@@ -403,3 +403,9 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 - **Big news:**  The spectacular dystoria (/u/dystoria_ on Reddit) reached out to me to show me his revisions to the preset.  Those revisions are laid out in great length, with a lot of fantastic accompanying information, at dystoria's [Rentry page](https://rentry.org/dystoria-chatfill).
 
 - This update is not meant to be my final word on dystoria's insights, but I did want to push dystoria's revisions to the tracker's formatting and the accompanying regex script, which potentially represents a huge savings in input tokens.
+
+---------
+
+## 8.4 Update (Aug 3, 2026)
+
+- dystoria was kind enough to point out that the "Top A" sampler setting on my preset is at 1.  I have reset it to zero, where it should be.  There are no other changes in this release, though more will soon follow.
