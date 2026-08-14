@@ -155,7 +155,7 @@ The example is also a little weird from a narrative perspective, but again, I fe
 
 Above, I wrote at length about context windows.  The sad fact is that large language models have only two resources to draw upon when they craft each response: the first is the information on which they were trained, and the second is the input text fed to them by you (i.e. the context window), in the moment.  Models have zero awareness of anything else. 
 
-These days, it isn't uncommon to see grandiose claims about a model's context size, sometimes as high as one million tokens.  Unfortunately those claims do not extend to our use case (roleplay or collaborative fiction).  What may work for coding doesn't necessarily work for narrative.  It is generally acknowledged that narrative coherence degrades if you expand the context window beyond a relatively short span.  Opinions differ as to where exactly that threshold lies, and models do vary, but as a general rule, I peg the number at around 40k.  Usually, I roleplay with a context window of 32k tokens.
+These days, it isn't uncommon to see grandiose claims about a model's context size.  Sometimes boast windows as large as one million tokens.  Unfortunately those claims do not extend to our use case (roleplay or collaborative fiction).  What may work for coding doesn't necessarily work for narrative.  It is generally acknowledged that narrative coherence degrades if you expand the context window beyond a relatively short span.  Opinions differ as to where exactly that threshold lies, and models do vary, but as a general rule, I peg the number at around 40k.  Usually, I roleplay with a context window of 32k tokens.
 
 By default, then, anything in my chat history that's older than 32k tokens is instantly forgotten. 
 
@@ -430,3 +430,5 @@ Substantially rephrased/reorganized the prompt:
 - Min P is set to 0.1 by default.  This setting is pretty much no lose, but as always, the user is free to determine his own sampler preferences.  I just want to make sure that people can get a good experience out of the box.
 
 - I increased the chat depth of the Regex script from 2 to 4.  This means that if you're following a standard turn order (i.e. alternating between user and LLM), there should be TWO tracker examples in the context, rather than just one.  I changed this because I noticed certain models seemed to get confused if they only had one example to follow.
+
+- Total token count has gone up by ~50, since the last breakdown.  That's without the two new optional switches, which will add another 150 or so.  All in all, still very lightweight.
