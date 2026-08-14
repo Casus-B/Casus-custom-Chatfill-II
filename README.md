@@ -409,3 +409,24 @@ Lately I've been playing through a whole new chat with Mimo 2.5 Pro, taking care
 ## 8.4 Update (Aug 3, 2026)
 
 - dystoria was kind enough to point out that the "Top A" sampler setting on my preset is at 1.  I have reset it to zero, where it should be.  There are no other changes in this release, though more will soon follow.
+
+---------
+
+## 9.0 Update (Aug 14, 2026)
+
+Substantially rephrased/reorganized the prompt: 
+
+- The style_guide switch is now part of "Main Switches," split off from core_directives.  
+
+- The no_impersonation switch was folded into style_guide.
+
+- Antislop has been reworded in several areas.  At least one part of it was moved to style_guide.
+
+- Added two new, optional switches, an 'embellish' switch, and a 'no_draft' switch.  
+  - The Embellish switch is similar to the 'director mode' you might see on other presets; it instructs the LLM to flesh out the user's actions, allowing for what you might call a lazier style of play. 
+  - The no_draft switch simply instructs the LLM not to draft replies in reasoning.  This might be useful in certain situations (e.g. when Kimi K2.6 is thinking itself to death), but I wouldn't leave it on as a rule.  It seems to confuse some models.
+  - Both of these excellent additions come courtesy of dystoria.  I remain grateful for his insight and his help.
+  
+- Min P is set to 0.1 by default.  This setting is pretty much no lose, but as always, the user is free to determine his own sampler preferences.  I just want to make sure that people can get a good experience out of the box.
+
+- I increased the chat depth of the Regex script from 2 to 4.  This means that if you're following a standard turn order (i.e. alternating between user and LLM), there should be TWO tracker examples in the context, rather than just one.  I changed this because I noticed certain models seemed to get confused if they only had one example to follow.
