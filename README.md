@@ -432,3 +432,25 @@ Substantially rephrased/reorganized the prompt:
 - I increased the chat depth of the Regex script from 2 to 4.  This means that if you're following a standard turn order (i.e. alternating between user and LLM), there should be TWO tracker examples in the context, rather than just one.  I changed this because I noticed certain models seemed to get confused if they only had one example to follow.
 
 - Total token count has gone up by ~50, since the last breakdown.  That's without the two new optional switches, which will add another 150 or so.  All in all, still very lightweight.
+
+---------
+
+## 10.0 Update, Sophia (September 19, 2026)
+
+- Pursuant to a fascinating discussion, I spent a few weeks experimenting with the notion that the prompt will be more effective and less sanitized if it's given a virtual identity.  Thus Sophia is born, but you can name her whatever you like.  Her name only appears twice in the preset, both times under the initial 'role' entry. 
+  - The idea is to add an extra layer of abstraction between the model's default 'assistant' persona and your roleplay session.  Instead of an assistant complying with your command to act as a writer or game engine; it's an assistant playing the role of Sophia, who lives to act as a writer or game engine for you.  By the same token, I've also added a note that further differentiates between 'you,' the user, and the role you play, as {{user}}, along with explicit language giving Sophia permission to treat {{user}} poorly, in service to the narrative.
+
+- I also experimented with a much more intense implementation of the 'Sophia' principle, running a parallel version of the preset which was totally rewritten in third person, framing every instruction as a matter of Sophia's preference rather than as a command.  This approach was effective, but it also led to much longer thinking blocks.  I'm happy to strike that approach, to be honest, because it made the prompt a lot less pleasant to read/edit.  It seems that simply telling the model to assume the role at the beginning, and then following with the typical format for instructions, works just fine.
+
+- Along with this Sophia revision comes a large revision to the preset's instructions more generally.  Antislop is a particular point of pride for me in this release.  I spent a lot of time tearing my hair out over the phrasing in that entry.  Actually I was planning to release 10.0 much earlier than this, but it turned out that after making some pretty small 'finishing touches,' suddenly I saw the GLM 5+ models regress in terms of the slop they were throwing out.  I've since ironed out that problem, and in the process rendered Antislop much more effective.  Little differences in phrasing really can make a huge difference to certain models.
+
+- On the subject of models, it's worth pointing out that the newest models from GLM (5.3, 5.3 Flash) and Deepseek (v4.1 Flash) are very much more censorious than their immediate predecessors.  Usually they won't outright refuse unless you're doing something extreme, but they are quite aggressive with what you might call guard-railing or soft-censorship, softening or steering away from outcomes or descriptions that the model considers bad.
+  - The effect can be subtle or blatant, depending on what you're trying to do and how sensitive you are to it, but once it's seen you can't unsee it.  Expect more of this type of behavior from all models going forward.  China passed a law over the summer aimed at protecting people from AI psychosis, and of course America's big tech sector already turned guardrails into a borderline Olympic sport.
+  - All of the above serves, in part, to explain Sophia, and my stronger emphasis on giving models permission to be cruel.  Don't expect miracles; I think you're still better off with e.g. GLM 5.2 than you are with 5.3 (which is a shame, because 5.3 does write well) for R-rated or even PG-13 storylines.
+
+- Writer is now the default role, rather than the 'roleplay' game engine.  I don't think this makes a huge difference; feel free to toggle it back if you like.
+
+- I raised the default context window, and the default output limit, by 2k tokens.  This is simply to give certain models (notably the Kimis and Gemma 4:thinking), a little extra cushion to output a reply after their thinking block.  Again, feel free to change.
+
+- Token count, with the usual configuration (Role + Core Directives + Main Switches + Antislop), is ~950 before the tracker toys.  Toss in Eroticism, and you're at ~1,030.  Toss in the 'toys' (Colored Text, Tracker, Date/Time), and you're up to ~1,750.
+  - Still very light in the grand scheme.
