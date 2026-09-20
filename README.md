@@ -3,7 +3,7 @@ A modified, lightweight, universal preset for Sillytavern.  All credit to u/etei
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
 
-I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets.  
+I must also acknowledge FR-1-Plan, Purachina, and Geechin, among countless others, whose presets and commentary have inspired me in my obsessive quest to craft my own presets.  I must also thank Prolix-OC, for creating and maintaining the [best AI-RP front end](https://github.com/prolix-oc/Lumiverse).
 
 And an **EXTRA HUGE thanks** to [dystoria](#83-update-aug-1-2026), who has shared [tons of insight](https://rentry.org/dystoria-chatfill).
 
