@@ -448,7 +448,7 @@ Substantially rephrased/reorganized the prompt:
 
 - On the subject of models, it's worth pointing out that the newest models from GLM (5.3, 5.3 Flash) and Deepseek (v4.1 Flash) are very much more censorious than their immediate predecessors.  Usually they won't outright refuse unless you're doing something extreme, but they are quite aggressive with what you might call guard-railing or soft-censorship, softening or steering away from outcomes or descriptions that the model considers bad.
   - The effect can be subtle or blatant, depending on what you're trying to do and how sensitive you are to it, but once it's seen you can't unsee it.  Expect more of this type of behavior from all models going forward.  China passed a law over the summer aimed at protecting people from AI psychosis, and of course America's big tech sector already turned guardrails into a borderline Olympic sport.
-  - All of the above serves, in part, to explain Sophia, and my stronger emphasis on giving models permission to be cruel.  Don't expect miracles; I think you're still better off with e.g. GLM 5.2 than you are with 5.3 (which is a shame, because 5.3 does write well) for dark storylines.  But this preset should give you a satisfying experience on most any model.
+  - All of the above serves, in part, to explain Sophia, and my stronger emphasis on giving models permission to be cruel.  Don't expect miracles; I think you're still better off with e.g. GLM 5.2 than you are with 5.3 for dark storylines.  But this preset should give you a satisfying experience on most any model.
 
 - Writer is now the default role, rather than the 'roleplay' game engine.  I don't think this makes a huge difference; feel free to toggle it back if you like.
 
