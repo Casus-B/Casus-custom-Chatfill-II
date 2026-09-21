@@ -1,5 +1,5 @@
 # Casus-custom-Chatfill-II
-A modified, lightweight, universal preset for Sillytavern and Lumiverse.  All credit to u/eteitaxiv for the spectacular original, which you can find at the link below.  
+A modified, lightweight, universal preset for [Sillytavern](https://github.com/SillyTavern/SillyTavern) and [Lumiverse](https://github.com/prolix-oc/Lumiverse).  All credit to u/eteitaxiv for the spectacular original, which you can find at the link below.  
 
 https://www.reddit.com/r/SillyTavernAI/comments/1tb3d78/chatfill_v2_now_with_revolutionary_switches/
 
