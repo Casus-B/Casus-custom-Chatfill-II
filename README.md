@@ -18,6 +18,7 @@ And an **EXTRA HUGE thanks** to [dystoria](#83-update-aug-1-2026), who has share
 - [The Tracker](#the-tracker)
 - [Token Count](#token-count)
 - [A Note On Memory](#a-note-on-memory)
+- [A Note On Front Ends](#a-note-on-front-ends)
 - [Further Revisions (Changelog)](#further-revisions-changelog)
 
 -----
@@ -194,6 +195,47 @@ Instead, I will attempt to list prominent options, along with a small blurb abou
   
 - [Smart-Memory](https://github.com/senjinthedragon/Smart-Memory/)
   - Same deal.  Heard good things, no personal experience.
+
+-----
+
+# A Note on Front Ends
+
+(This section added on September 21, 2026)
+
+I've been using **Sillytavern** for three years.  It's a fantastic piece of software.  On first blush, it can be overwhelming, clunky, over-complicated, ugly, slow, but to this day it features by far the most expansive community support in the AI-Roleplay space.  If there's something you want to add to Sillytavern, extra functionality or aesthetic customization, chances are someone out there has already crafted an extension for you.  If you get seriously into this hobby, tweaking Sillytavern may even become an end in itself for you.
+
+But Sillytavern is still clunky and slow, and adding a million extensions doesn't exactly speed it up.
+
+For the past few months I've primarily used **Lumiverse** instead.  Out of the box, Lumiverse is simply much simpler and pleasant to use.  It's ridiculously fast in comparison to Sillytavern, and the UI needs very much less customization to reach what I would consider a 'comfortable' state.  Because it's much newer, of course, Lumiverse features far fewer available extensions, but A) Lumiverse also has several features baked in that Sillytavern lacks, and B) Lumiverse does have extensions to cover what I would call the essential bases.
+
+Also the pace of development on Lumiverse is stunning.  The lead developer, Prolix, pushes like a dozen commits daily.  Just the other day, I wandered into the 'feedback' section of the Lumiverse Discord to drop a few QoL suggestions.  I thought, 'no big deal; I'll just say my piece and go.'  Within like two hours Prolix had implemented my suggestions!  I can't describe how amazed I was.
+
+There are also more subtle differences.  For example, the way that Sillytavern conveys '[reasoning effort](https://docs.sillytavern.app/usage/prompts/reasoning/#reasoning-effort)' (a subject perhaps worth its own lengthy discussion) can result in errors if the selected effort level doesn't conform to the model's expectations, whereas in Lumiverse the very same setting will simply work.  Also for what it's worth, I've noticed that when I use cloud models (through e.g. NanoGPT), my formatting really only breaks in Sillytavern.  It doesn't happen often, but when the model forgets to add a closing tag on the tracker or whatever, I can literally alt tab over to Lumiverse, input the same chat history, using the same model, same provider, same sampler settings, and the tracker will work.  Don't ask me why. 
+
+Anyway, my purpose here isn't to push you to one front end or another.  Both Sillytavern and Lumiverse have advantages, as you can see.  I also hear good things about [Marinara Engine](https://github.com/Pasta-Devs/Marinara-Engine) and [Sillybunny](https://github.com/SillyBunnyTeam/SillyBunny), though I have no personal experience with either one.  The point is that your experience may differ in blatant or subtle ways depending on what front end you use and how you've configured it.
+
+I will close this rambling section with a few extension recommendations for both Sillytavern and Lumiverse:
+
+### Sillytavern:
+
+- [ProbablyTooManyTabs](https://github.com/IceFog72/SillyTavern-ProbablyTooManyTabs)
+- [Every Line Text Editor](https://github.com/IceFog72/SillyTavern-EveryTextLineEditor)
+- [MemoryBooks](https://github.com/aikohanasaki/SillyTavern-MemoryBooks)
+- [ST Copilot](https://github.com/Supker/ST-Copilot)
+- [Sillytavern Input History](https://github.com/LenAnderson/SillyTavern-InputHistory)
+- [All But This Swipe](https://github.com/Avilnetro/all-but-this-swipe)
+- [Input History](https://github.com/LenAnderson/SillyTavern-InputHistory)
+- [WI Bulk Mover](https://github.com/leandrojofre/SillyTavern-WI-Bulk-Mover)
+- [World Info Recommender](https://github.com/bmen25124/SillyTavern-WorldInfo-Recommender)
+- [Guided Generations](https://github.com/Samueras/GuidedGenerations-Extension)
+- [Prompt Inspector](https://github.com/SillyTavern/Extension-PromptInspector)
+
+### Lumiverse
+
+- [LumiBooks](https://github.com/AMousePad/LumiBooks)
+- [Canvas](https://github.com/j-dandelion/Lumiverse-Canvas)
+- [Prompt Viewer](https://github.com/cfigure/Lumiverse-prompt-viewer)
+- [Lumiverse Suite](https://github.com/I-Sereya-I/lumiverse_suite)
 
 -----
 
