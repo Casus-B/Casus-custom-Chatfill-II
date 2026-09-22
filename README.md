@@ -18,7 +18,7 @@ And an **EXTRA HUGE thanks** to [dystoria](#83-update-aug-1-2026), who has share
 - [The Tracker](#the-tracker)
 - [Token Count](#token-count)
 - [A Note On Memory](#a-note-on-memory)
-- [A Note On Front Ends](#on-front-ends-and-extensions)
+- [On Front Ends and Extensions](#on-front-ends-and-extensions)
 - [Further Revisions (Changelog)](#further-revisions-changelog)
 
 -----
