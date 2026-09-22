@@ -18,7 +18,7 @@ And an **EXTRA HUGE thanks** to [dystoria](#83-update-aug-1-2026), who has share
 - [The Tracker](#the-tracker)
 - [Token Count](#token-count)
 - [A Note On Memory](#a-note-on-memory)
-- [A Note On Front Ends](#a-note-on-front-ends)
+- [A Note On Front Ends](#on-front-ends-and-extensions)
 - [Further Revisions (Changelog)](#further-revisions-changelog)
 
 -----
@@ -101,7 +101,7 @@ As for what I changed/added:
   
 8. Phrasing/structural adjustments too numerous to mention, really.  The changelog has a pretty detailed timeline.
 
-9. As of version of 8.3, the preset now has dystoria's regex script attached.  The regex script cleans context window of tracker information that is more than 2 messages old.  This represents a potentially huge savings in token cost, along with a potential reduction in LLM confusion.
+9. As of version of 8.3, the preset now has dystoria's regex script attached.  The regex script cleans the context window of tracker information that is more than 2 messages old.  This represents a potentially huge savings in token cost, along with a potential reduction in LLM confusion.
 
 ------
 
@@ -198,7 +198,7 @@ Instead, I will attempt to list prominent options, along with a small blurb abou
 
 -----
 
-# A Note on Front Ends
+# On Front Ends and Extensions
 
 (This section added on September 21, 2026)
 
