@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "type": "lumiverse_regex_scripts",
+  "scripts": [
+    {
+      "name": "Pretty OOC",
+      "find_regex": "\\(\\((.*?)\\)\\)",
+      "replace_string": "<details open><summary>Out of Character</summary>\n$1\n</details>",
+      "flags": "gi",
+      "placement": [
+        "user_input"
+      ],
+      "scope": "global",
+      "scope_id": null,
+      "target": [
+        "display"
+      ],
+      "min_depth": null,
+      "max_depth": null,
+      "trim_strings": [],
+      "run_on_edit": false,
+      "substitute_macros": "none",
+      "disabled": false,
+      "sort_order": 0,
+      "description": "",
+      "metadata": {},
+      "folder": "",
+      "script_id": "",
+      "actions": [],
+      "owner_extension_identifier": null
+    },
+    {
+      "name": "Tracker Cleanup 6 depth",
+      "find_regex": "<!--tracker_start-->\\s+[\\s\\S]*?<!--tracker_end-->",
+      "replace_string": "",
+      "flags": "g",
+      "placement": [
+        "ai_output"
+      ],
+      "scope": "global",
+      "scope_id": null,
+      "target": [
+        "prompt"
+      ],
+      "min_depth": 6,
+      "max_depth": null,
+      "trim_strings": [],
+      "run_on_edit": false,
+      "substitute_macros": "none",
+      "disabled": false,
+      "sort_order": 0,
+      "description": "",
+      "metadata": {},
+      "folder": "",
+      "script_id": "",
+      "actions": [],
+      "owner_extension_identifier": null
+    }
+  ],
+  "exported_at": 1793749122
+}
